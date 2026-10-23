@@ -57,3 +57,8 @@ kes(sayfa(8), (620, 51, 2441, 776), "ref_tai_ankara.jpg")        # TAI Ankara Lo
 kes(sayfa(9), (100, 430, 709, 746), "ref_kentsel_donusum.jpg")   # Kahramankazan Kentsel Dönüşüm
 kes(sayfa(10), (400, 76, 1702, 752), "ref_kent_merkezi.jpg")      # Kahramankazan Kent Merkezi
 print("portföy görselleri hazır")
+
+# Kavramsal 3B görseller (araclar/gorsel3b ile üretilir)
+for n in ("genel", "gol", "okul", "konut", "istasyon"):
+    crop(f"kavram_{n}.jpg", 16 / 9, f"kavram_{n}.jpg", width=2400)
+print("kavram görselleri hazır")

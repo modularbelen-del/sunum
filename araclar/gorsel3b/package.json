@@ -1,0 +1,6 @@
+{
+  "name": "uydukent-gorsel3b",
+  "private": true,
+  "description": "Kahramankazan Uydukent kavramsal 3B görselleri (three.js, başsız Chromium)",
+  "dependencies": { "three": "0.170.0" }
+}
