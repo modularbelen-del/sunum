@@ -37,7 +37,7 @@ pres.subject = "Savunma ve havacılık sanayi çalışanları için akıllı bir
 const C = pres.SchemeColor;
 
 const W = 13.333, L = 0.6, CW = 12.133, TOP = 1.75;
-const FOOT = "Belen & Partners · Kahramankazan Uydukent fizibilitesi · Ekim 2026 · Taslak";
+const FOOT = "Belen & Partners · Kahramankazan Uydukent fizibilitesi · Ekim 2026";
 
 // ---------- Layouts ----------
 function kickerPh(color) {
@@ -168,12 +168,12 @@ async function build() {
     const s = slideOf("KAPAK", "Giriş");
     s.addImage({ path: A("kapak.jpg"), x: 0, y: 0, w: W, h: 7.5, objectName: "Kapak fotoğrafı: bölgeden ova manzarası" });
     s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: W, h: 7.5, fill: { color: C.text2, transparency: 28 }, line: { type: "none" }, objectName: "Karartma" });
-    txt(s, "FİZİBİLİTE SUNUMU · TASLAK", { x: L, y: 1.75, w: 8, h: 0.35, fontSize: 14, bold: true, color: C.accent4, charSpacing: 2 });
+    txt(s, "FİZİBİLİTE SUNUMU", { x: L, y: 1.75, w: 8, h: 0.35, fontSize: 14, bold: true, color: C.accent4, charSpacing: 2 });
     s.addText("Kahramankazan Uydukent", { placeholder: "title" });
     s.addText("Savunma ve havacılık sanayi çalışanları için akıllı bir yaşam alanı", { placeholder: "subtitle" });
     txt(s, "Sarıayak, Kahramankazan · 511.000 m² Hazine arazisi", { x: L, y: 4.9, w: 8, h: 0.35, fontSize: 16, color: C.background2 });
     txt(s, "Belen & Partners · Ekim 2026", { x: L, y: 6.55, w: 8, h: 0.35, fontSize: 14, bold: true, color: C.background1 });
-    s.addNotes("Açılış. Belen & Partners olarak Kahramankazan Sarıayak'taki 511 bin metrekarelik Hazine arazisi için hazırladığımız Kahramankazan Uydukent fizibilitesini sunuyoruz. Arka plandaki fotoğraf bölgeden Kahramankazan ovasına bakıyor; drone çekimi 22 Eylül 2026. Bu bir taslaktır; rakamların bir kısmı kurumlardan teyit bekliyor.");
+    s.addNotes("Açılış. Belen & Partners olarak Kahramankazan Sarıayak'taki 511 bin metrekarelik Hazine arazisi için hazırladığımız Kahramankazan Uydukent fizibilitesini sunuyoruz. Arka plandaki fotoğraf bölgeden Kahramankazan ovasına bakıyor; drone çekimi 22 Eylül 2026. Rakamların bir kısmı kurumlardan teyit bekliyor.");
   }
   {
     const s = slideOf("KOYU", "Giriş");
@@ -298,16 +298,16 @@ async function build() {
   {
     const s = slideOf("ICERIK", "Yer ve saha");
     head(s, "YER VE SAHA · BÖLGEDEN GÖRÜNÜM", "Bölge: platolar ve yeşil yamaçlar");
-    s.addImage({ path: A("saha_buyuk.jpg"), x: L, y: TOP, w: 7.35, h: 4.8, objectName: "Örencik köyü ve plato" });
+    s.addImage({ path: A("saha_buyuk.jpg"), x: L, y: TOP, w: 7.35, h: 4.8, objectName: "Sarıayak bölgesinde köy ve plato" });
     s.addImage({ path: A("saha_sag1.jpg"), x: 8.15, y: TOP, w: 4.58, h: 2.3, objectName: "Yarıntı ve teraslı ağaçlandırma" });
     s.addImage({ path: A("saha_sag2.jpg"), x: 8.15, y: TOP + 2.5, w: 4.58, h: 2.3, objectName: "Yamaç terasları ve yollar" });
     const chip = (t, x, y, w) => s.addText(t, { shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.06, x, y, w, h: 0.4,
       fill: { color: C.text2, transparency: 10 }, color: C.background1, fontSize: 13, bold: true, margin: [0, 0.12, 0, 0.12], valign: "middle", objectName: "Fotoğraf etiketi" });
-    chip("Vadide eski Örencik köyü, platoda tarlalar", L + 0.2, TOP + 4.2, 4.2);
+    chip("Vadide köy yerleşimi, platoda tarlalar", L + 0.2, TOP + 4.2, 3.7);
     chip("Yarıntı ve teraslı çam ağaçlandırması", 8.35, TOP + 1.7, 3.4);
     chip("Yamaç terasları, enerji hattı ve yollar", 8.35, TOP + 4.2, 3.45);
-    source(s, "Drone çekimi: 22 Eylül 2026, Örencik çevresi, proje ekibi. Görüntüler bölgenin arazi tipini gösterir; Sarıayak parseli ayrıca teyit edilecek.");
-    s.addNotes("Drone görüntüleri bölgenin arazi tipini gösteriyor; çekim Örencik çevresinde yapıldı, Sarıayak parselinin topoğrafyası ayrıca teyit edilecek. Arazi düz değil. Tepe üstündeki buğday platoları yapılaşmaya uygun bölümler. Yamaçlarda erozyon yarıntıları ve eşyükselti teraslarına dikilmiş genç çamlar var; bu teraslı ağaçlandırmanın hukuki statüsü teyit edilecek. Vadilerde eski köy yerleşimleri var; yeni yaşam alanı mevcut köyle birlikte tasarlanmalı. Platolardan ovaya geniş bir manzara açılıyor; bu bir değer.");
+    source(s, "Drone çekimi: 22 Eylül 2026, Sarıayak bölgesi, proje ekibi. Parsel sınırı işaretli değildir; topoğrafya halihazır haritayla teyit edilecek.");
+    s.addNotes("Drone görüntüleri Sarıayak bölgesinin arazi tipini gösteriyor; parsel sınırı işaretli değil, topoğrafya halihazır haritayla teyit edilecek. Arazi düz değil. Tepe üstündeki buğday platoları yapılaşmaya uygun bölümler. Yamaçlarda erozyon yarıntıları ve eşyükselti teraslarına dikilmiş genç çamlar var; bu teraslı ağaçlandırmanın hukuki statüsü teyit edilecek. Vadilerde eski köy yerleşimleri var; yeni yaşam alanı mevcut köyle birlikte tasarlanmalı. Platolardan ovaya geniş bir manzara açılıyor; bu bir değer.");
   }
   {
     const s = slideOf("ICERIK", "Yer ve saha");

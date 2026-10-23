@@ -8,13 +8,13 @@ sys.path.insert(0, str(SP))
 from build_pdf import CSS as BASE_CSS, to_html  # noqa: E402
 
 ROOT = SP.parent  # depo kökü
-REPORT = ROOT / "reports" / "Örencik yaşam alanı fizibilitesi.md"
+REPORT = ROOT / "reports" / "Kahramankazan Uydukent fizibilitesi.md"
 NOTES = ROOT / "research_notes" / "Örencik yaşam alanı fizibilitesi"
 IMG = (ROOT / "reports" / "gorseller").as_uri()
-FOOT = "Belen & Partners · Örencik yaşam alanı fizibilitesi · Taslak · Ekim 2026"
+FOOT = "Belen & Partners · Kahramankazan Uydukent fizibilitesi · Ekim 2026"
 
 KPIS = [("51,1 ha", "Hazine arazisi"), ("2.500", "konut (önerilen)"), ("≈7.500", "kişi"),
-        ("≈12,5 milyar TL", "toplam yatırım, arazi hariç"), ("&lt;35 dk", "TUSAŞ'a ekspresle")]
+        ("≈12,5 milyar TL", "toplam yatırım, arazi hariç"), ("&lt;35 dk", "sanayi bölgelerine ekspresle")]
 
 CSS = BASE_CSS.replace(
     '"Kahramankazan Örencik akıllı şehri · Taslak · 23 Ekim 2026"', f'"{FOOT}"') + """
@@ -57,10 +57,10 @@ def build_report() -> str:
     heads = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body)
     toc = "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in heads)
     cover = f"""<section class="cover"><img class="hero" src="{IMG}/drone_05_ova_manzarasi.jpg" alt="">
-<div class="kicker">Fizibilite raporu · Taslak</div><h1>{title}</h1>
-<div class="sub">Savunma ve havacılık sanayi çalışanları için akıllı yaşam alanı · Kahramankazan, Ankara</div>
-<div class="meta">Hazırlayan: Belen &amp; Partners<br>Tarih: Ekim 2026<br>Durum: taslak, Cumhurbaşkanlığı sunumu için hazırlık</div>
-<div class="warn">Bazı rakamlar varsayımlara veya ikincil kaynaklara dayanır ve metinde işaretlidir. Sunumdan önce ilgili kurumlardan teyit edilmelidir.</div></section>"""
+<div class="kicker">Fizibilite raporu</div><h1>{title}</h1>
+<div class="sub">Savunma ve havacılık sanayi çalışanları için akıllı yaşam alanı · Sarıayak, Kahramankazan, Ankara</div>
+<div class="meta">Hazırlayan: Belen &amp; Partners<br>Tarih: Ekim 2026</div>
+<div class="warn">Bazı rakamlar varsayımlara veya ikincil kaynaklara dayanmakta olup metinde işaretlenmiştir; ilgili kurumlardan teyit edilmesi öngörülmektedir.</div></section>"""
     toc_html = f'<section class="toc"><h2>İçindekiler</h2><ol>{toc}</ol></section>'
     return page(title, cover + toc_html + body)
 
