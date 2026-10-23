@@ -712,33 +712,39 @@ async function build() {
   {
     const s = slideOf("ICERIK", "Uygulama");
     head(s, "UYGULAMA · REFERANSLAR", "Referanslarımız: TUSAŞ için yaptıklarımız");
-    const big = [
-      ["FaHouseChimney", "TAI Ankara Lodgings", "Kahramankazan · 2022 · 400.000 m² · 1.500 konut", "TUSAŞ için yeni konut mahallesi. Ortada yeşil bir omurga; okul, sağlık ocağı, kütüphane ve spor tesisleri yürüme mesafesinde."],
-      ["FaIndustry", "TAI Kahramanmaraş Lodgings and Factory", "Kahramanmaraş · TUSAŞ lojmanları ve fabrikası", "Çalışan konutunu ve üretim tesisini birlikte ele aldık: Örencik'teki iş ve yaşam ilişkisine doğrudan emsal."],
-    ];
-    for (let i = 0; i < big.length; i++) {
-      const y = TOP + i * 2.45;
-      card(s, L, y, 6.4, 2.25);
-      await iconCircle(s, big[i][0], L + 0.25, y + 0.3, 0.75, C.accent1);
-      txt(s, big[i][1], { x: L + 1.2, y: y + 0.25, w: 5.0, h: 0.4, fontSize: 19, bold: true, color: C.text2 });
-      txt(s, big[i][2], { x: L + 1.2, y: y + 0.68, w: 5.0, h: 0.35, fontSize: 13, bold: true, color: C.accent1 });
-      txt(s, big[i][3], { x: L + 1.2, y: y + 1.1, w: 5.0, h: 1.05, fontSize: 14 });
-    }
-    const rx = 7.3, rw = W - L - rx;
-    txt(s, "Bölgede ve sektörde diğer işlerimiz", { x: rx, y: TOP, w: rw, h: 0.35, fontSize: 17, bold: true, color: C.text2 });
+    const lw = 6.5;
+    card(s, L, TOP, lw, 3.75);
+    s.addImage({ path: A("ref_tai_ankara.jpg"), x: L, y: TOP, w: lw, h: lw / 2.512, objectName: "TAI Ankara Lodgings vaziyet perspektifi" });
+    const ty = TOP + lw / 2.512 + 0.15;
+    txt(s, [{ text: "TAI Ankara Lodgings  ", options: { bold: true, color: C.text2, fontSize: 18 } },
+      { text: "Kahramankazan · 2022 · 400.000 m² · 1.500 konut", options: { bold: true, color: C.accent1, fontSize: 13 } }],
+      { x: L + 0.25, y: ty, w: lw - 0.5, h: 0.38, valign: "middle" });
+    txt(s, "TUSAŞ için yeni konut mahallesi: yeşil bir omurga; okul, sağlık ocağı, kütüphane ve spor yürüme mesafesinde.",
+      { x: L + 0.25, y: ty + 0.42, w: lw - 0.5, h: 0.62, fontSize: 14 });
+    card(s, L, TOP + 3.95, lw, 0.85);
+    await iconCircle(s, "FaIndustry", L + 0.2, TOP + 4.08, 0.6, C.accent1);
+    txt(s, [{ text: "TAI Kahramanmaraş Lodgings and Factory", options: { bold: true, color: C.text2, fontSize: 15, breakLine: true } },
+      { text: "TUSAŞ lojmanları ve fabrikası: çalışan konutu ile üretim tesisini birlikte ele aldık.", options: { fontSize: 13 } }],
+      { x: L + 0.95, y: TOP + 4.03, w: lw - 1.15, h: 0.72, valign: "middle" });
+    const rx = L + lw + 0.35, rw = W - L - rx, iw = (rw - 0.2) / 2, ih = iw / 1.926;
+    s.addImage({ path: A("ref_kentsel_donusum.jpg"), x: rx, y: TOP, w: iw, h: ih, objectName: "Kahramankazan Kentsel Dönüşüm" });
+    s.addImage({ path: A("ref_kent_merkezi.jpg"), x: rx + iw + 0.2, y: TOP, w: iw, h: ih, objectName: "Kahramankazan Kent Merkezi" });
+    txt(s, "Kentsel Dönüşüm", { x: rx, y: TOP + ih + 0.05, w: iw, h: 0.28, fontSize: 11, color: C.accent5 });
+    txt(s, "Kent Merkezi", { x: rx + iw + 0.2, y: TOP + ih + 0.05, w: iw, h: 0.28, fontSize: 11, color: C.accent5 });
     const rows = [
       ["Proje", "Yıl", "Alan (m²)", "Rol"],
       ["Kahramankazan Kentsel Dönüşüm", "2020", "523.000", "Tasarım"],
       ["Kahramankazan Kent Merkezi", "2020", "412.175", "Tasarım"],
       ["Serapınar Termal Yaşam Merkezi", "2025", "3.000.000", "Tasarım ve yapım"],
       ["GIA Büyük Sanayi Alanı, Niğde", "2024", "29.000.000", "Tasarım ve yapım"],
-      ["MKE Teknopark ve Genel Müdürlük", "2020", "45.000", "Tasarım"],
-      ["TR Motor ofis ve fabrika binaları", "2023", "553.991", "Tasarım"],
     ];
     const data = rows.map((r, i) => r.map((t, j) => ({ text: t, options: { bold: i === 0, align: j === 1 || j === 2 ? "right" : "left",
       color: i === 0 ? HEX.white : HEX.ink, fill: { color: i === 0 ? HEX.navy : HEX.white } } })));
-    s.addTable(data, { x: rx, y: TOP + 0.5, w: rw, colW: [2.45, 0.6, 1.1, 1.283], rowH: 0.55, fontSize: 13, valign: "middle", margin: [0.04, 0.08, 0.04, 0.08], border: { type: "solid", pt: 0.75, color: HEX.line } });
-    source(s, "Kaynak: Belen & Partners kurumsal portföyü (Ağustos 2025). Roller portföydeki gibidir.");
+    const tyy = TOP + ih + 0.45;
+    s.addTable(data, { x: rx, y: tyy, w: rw, colW: [2.45, 0.55, 1.08, rw - 4.08], rowH: [0.42, 0.5, 0.5, 0.5, 0.5], fontSize: 13, valign: "middle", margin: [0.03, 0.07, 0.03, 0.07], border: { type: "solid", pt: 0.75, color: HEX.line } });
+    txt(s, [{ text: "Savunma sanayinde ayrıca: ", options: { bold: true, color: C.text2 } }, { text: "MKE Teknopark ve Genel Müdürlük Binası (2020), TR Motor ofis ve fabrika binaları (2023)." }],
+      { x: rx, y: TOP + 4.28, w: rw, h: 0.55, fontSize: 13 });
+    source(s, "Kaynak ve görseller: Belen & Partners kurumsal portföyü (Ağustos 2025). Roller portföydeki gibidir.");
     s.addNotes("TUSAŞ için iki şehirde yerleşke ölçeğinde iş yaptık. Kahramankazan'da TAI Ankara Lodgings: 2022, 400 bin metrekare, 1.500 konut; okul, sağlık ocağı ve spor yürüme mesafesinde. Kahramanmaraş'ta TUSAŞ lojmanları ve fabrikası; alan ve yıl bilgisi eklenecek. Ayrıca Kahramankazan'ın kentsel dönüşümü, kent merkezi ve Serapınar aynı ilçede. Örencik bu planlama zincirinin yeni halkası.");
   }
   {

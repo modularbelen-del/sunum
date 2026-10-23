@@ -38,3 +38,23 @@ Image.open(G / "bolgeleme_semasi.png").crop((0, 58, 1500, 980)).save(OUT / "bolg
 subprocess.run([sys.executable, str(HERE / "harita.py"), str(OUT / "harita.png")], check=True)
 Image.open(OUT / "harita.png").save(G / "konum_koridor_semasi.png")
 print("görseller hazır:", OUT)
+
+# Portföyden kendi projelerimizin görselleri (docs/portfoy; 74. sayfa bu dosyada yok)
+import pypdfium2 as pdfium
+
+PORTFOY = ROOT / "docs" / "portfoy" / "Belen_Partners_ilgili_sayfalar.pdf"
+pdf = pdfium.PdfDocument(str(PORTFOY))
+
+
+def sayfa(no, dpi=100):
+    return pdf[no - 1].render(scale=dpi / 72).to_pil().convert("RGB")
+
+
+def kes(im, box, out):
+    im.crop(box).save(OUT / out, quality=88)
+
+
+kes(sayfa(8), (620, 51, 2441, 776), "ref_tai_ankara.jpg")        # TAI Ankara Lodgings vaziyet perspektifi
+kes(sayfa(9), (100, 430, 709, 746), "ref_kentsel_donusum.jpg")   # Kahramankazan Kentsel Dönüşüm
+kes(sayfa(10), (400, 76, 1702, 752), "ref_kent_merkezi.jpg")      # Kahramankazan Kent Merkezi
+print("portföy görselleri hazır")
