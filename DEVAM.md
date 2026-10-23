@@ -107,5 +107,6 @@ Ana rakamlar (not 09 ve 10):
 ## 6. Dikkat
 
 - **Büyük dosyalar repoya konmadı:** `Belen&Partners.pdf` (363 MB) ve `Örencik Mahallesi.MP4` (1,5 GB) GitHub'ın 100 MB dosya sınırını aşıyor. Bu dosyalar yerel klasörde duruyor.
+- **Portföyün ilgili sayfaları repoda:** `docs/portfoy/Belen_Partners_ilgili_sayfalar.pdf` (12 sayfa, 30 MB). Kaynak PDF'teki sayfa karşılıkları: 1 kapak; 3 hakkımızda; 10–12 GIA (Niğde); 15–16 Serapınar; 32 TAI Ankara Lodgings (2022, 400.000 m², 1.500 konut); 51 Kahramankazan Kentsel Dönüşüm (523.000 m²); 52 Kahramankazan Kent Merkezi (412.175 m²); 80–81 referans listesi (TAI Kahramanmaraş Lodgings and Factory burada geçiyor). 74. sayfa (UPEM) bilerek dahil edilmedi.
 - **Gizlilik:** Raporlar taslaktır. Savunma tesisleriyle ilgili yalnızca kamuya açık ve genel bilgi kullanıldı. Portföyün 74. sayfası dışarı verilmez.
 - **Eski çıktılar:** `reports/Kahramankazan TUSAŞ çalışan yerleşimi.md` ve PDF'i eski çerçevededir; yalnızca arka plan olarak kullanılmalı.
