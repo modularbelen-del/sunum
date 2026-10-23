@@ -6,3 +6,7 @@ Belen&Partners.pdf
 __pycache__/
 araclar/area/
 araclar/*.html
+# Sunum aracı
+araclar/sunum/node_modules/
+araclar/sunum/assets/
+araclar/sunum/package-lock.json
