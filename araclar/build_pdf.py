@@ -7,7 +7,7 @@ SP = Path(__file__).resolve().parent
 sys.path.insert(0, str(SP / "pylib"))
 import markdown  # noqa: E402
 
-ROOT = Path(r"C:\Users\muhammedalicinar\Documents\SavunmaSanayiOturum")
+ROOT = SP.parent  # depo kökü
 REPORT = ROOT / "reports" / "Kahramankazan TUSAŞ çalışan yerleşimi.md"
 NOTES = ROOT / "research_notes" / "Kahramankazan TUSAŞ çalışan yerleşimi"
 DATE = "23 Ekim 2026"

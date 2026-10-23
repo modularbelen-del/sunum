@@ -7,7 +7,7 @@ SP = Path(__file__).resolve().parent
 sys.path.insert(0, str(SP))
 from build_pdf import CSS as BASE_CSS, to_html  # noqa: E402
 
-ROOT = Path(r"C:\Users\muhammedalicinar\Documents\SavunmaSanayiOturum")
+ROOT = SP.parent  # depo kökü
 REPORT = ROOT / "reports" / "Örencik yaşam alanı fizibilitesi.md"
 NOTES = ROOT / "research_notes" / "Örencik yaşam alanı fizibilitesi"
 IMG = (ROOT / "reports" / "gorseller").as_uri()
