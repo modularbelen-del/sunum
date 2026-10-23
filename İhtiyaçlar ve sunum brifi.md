@@ -1,106 +1,131 @@
-# Örencik Akıllı Şehri: ihtiyaçlar ve sunum brifi
+# Kahramankazan Uydukent: ihtiyaçlar ve sunum brifi
 
 Son güncelleme: 23 Ekim 2026
 
-Bu dosya, proje ekibinin bu çalışmadan beklediği her şeyi tek yerde toplar. PDF raporu ve sunumu bu brife göre hazırlıyoruz. Yeni bir bilgi ya da karar geldiğinde önce bu dosya güncellenir.
+Bu dosya, proje ekibinin bu çalışmadan beklediği her şeyi tek yerde toplar. PDF raporu ve sunum bu brife göre hazırlanır. Yeni bir bilgi ya da karar geldiğinde önce bu dosya güncellenir.
 
 ## 1. Proje tanımı
 
 Aşağıdakiler proje ekibinin söyledikleridir.
 
-- **Yer:** Ankara, Kahramankazan ilçesi, Örencik Mahallesi.
-- **Arazi:** 511.000 m² (51,1 ha), Maliye Hazinesi mülkiyetinde.
-- **Model:** Özel bir şirket olarak (biz) bir akıllı şehir geliştiriyoruz ve konutları satıyoruz. Konutları herkes alabilir; öncelikli hedef savunma sanayi çalışanları.
-- **Hedef kitle:** TAI/TUSAŞ başta olmak üzere savunma sanayinin beyaz yakalı çalışanları, özellikle mühendisler. "Harp Savunma" metinlerde öne çıkarılmayacak.
-- **Erişim:** Yerleşim herkese açık olacak; kapalı bir site değil.
-- **Akıllı şehir:** Kapsamı bizim önerdiğimiz bir ürün.
-- **Nüfus:** İlk brifteki "yaklaşık 100 bin kişi, en az yarısı çalışan" rakamı gerçekçi olmayabilir. Hedef nüfus fizibiliteyle belirlenecek.
+- **Ad:** Kahramankazan Uydukent.
+- **Yer:** Ankara, Kahramankazan ilçesi, Sarıayak Mahallesi. Önceki çalışmalarda Örencik varsayılmıştı; proje ekibi 23 Ekim 2026'da yeri Sarıayak olarak düzeltti.
+- **Arazi:** 511.000 m² (51,1 ha), Maliye Hazinesi mülkiyetinde. Arazi para ile alınmayacak; ne yapılacağına Cumhurbaşkanlığı karar verecek.
+- **Hazırlayan:** Belen & Partners (mimarlık ofisi) fizibiliteyi hazırlıyor ve sunumu Cumhurbaşkanlığına yapıyor.
+- **Sakinler:** Konutlar satılık ve herkese açık; savunma ve havacılık sanayi çalışanlarına öncelikli. Belirli bir firmaya toplu satış yok. Kimin yapıp satacağı tartışılmıyor.
+- **Hedef kitle:** Savunma ve havacılık sanayinin çalışanları, özellikle mühendisler. Varış noktaları genel adlarla yazılır: HAB / Kışla ve Kınık sanayi alanları. "Harp Savunma" metinlerde yer almaz.
+- **Ekosistem:** Uydukent, proje ekibinin "Kahramankazan 2030 Savunma Sanayii Ekosistemi" vizyonunun 3 numaralı bileşenidir (Smart City, Uydukent Projesi, Sarıayak Bölgesi). Diğer bileşenler:
+  - Kahramankazan Kentsel Dönüşüm Bölgesi
+  - HAB TUSAŞ Uzay Gelişim Alanı (Kışla Bölgesi)
+  - Kınık Özel Endüstri Sanayii Alanı
+  - Hafif Raylı Ulaşım Sistemi
+  - Soğucak'ta tropik yaşam ve sağlık merkezi
+
+  Ekosistemin tamamı 35,6 milyon m² olup diğer projelerle birlikte 100–200 bin kişilik kapasite öngörülmektedir. İlk brifteki "100 bin kişi" bu ekosisteme karşılık gelir.
+- **Mesafeler** (proje ekibinin bölge görseli):
+  - Sarıayak–Kahramankazan merkezi 8 km
+  - Sarıayak–Kınık 11 km
+  - Soğucak–Kınık 9 km
+  - Kınık–Kışla (HAB) 8 km
+  - Kahramankazan–Kışla 16 km
 
 ## 2. Projenin amaçları
 
-1. **Mühendisleri çekmek:** TAI/TUSAŞ mühendislerini Örencik'e çekmek ve burada ev almaya ikna etmek. Ana soru: "Çekmek için neler yapabiliriz?"
-2. **Trafiği azaltmak:** Batıkent–Susuz–Eryaman hattındaki sabah-akşam pik yoğunluğunu azaltmak.
-3. **Şehir dışında yaşamın sorunlarını çözmek:** Eğitim, ulaşım ve sosyalleşme sorunlarına çözüm üretmek.
+1. **Nitelikli personeli bölgeye kazandırmak ve korumak:** savunma ve havacılık sanayi çalışanlarına eğitim, sağlık ve sosyal olanaklarıyla yaşanabilir bir yaşam alanı sunmak.
+2. **Trafiği azaltmak:** Batıkent–Susuz–Eryaman hattındaki sabah ve akşam zirve yoğunluğunu azaltmak.
+3. **Şehir dışında yaşamın sorunlarını çözmek:** eğitim, ulaşım ve sosyal yaşam sorunlarına çözüm üretmek.
 
 ## 3. Planlanan ya da bilinen unsurlar
 
-Proje ekibinin bilgisi:
-
-- **Eğitim:** Yeni özel okullar planlanıyor.
-- **Sağlık:** Kahramankazan'da yeni bir şehir hastanesi var ve sakinler onu kullanacak; Kazan yakın. Adı ve kapasitesi henüz doğrulanmadı.
-- **Sosyal yaşam:** Yapay göl ve çevresinde tesisler planlanıyor.
-- **Ulaşım:** Hafif raylı sistem gibi çözümler değerlendirilebilir.
+- **Eğitim:** Özel okul planlanıyor. Özel okul yalnızca nitelikli eğitim odaklıdır; havacılık ağırlıklı bir lise yoktur. Yanında MEB normlarında devlet okul kampüsü önerilir.
+- **Sağlık:** Proje ekibinin "yeni şehir hastanesi" dediği tesis, kaynaklarda Kahramankazan Devlet Hastanesi olarak geçer (2022'de açıldı, yaklaşık 150 yatak; kaynaklar 150 ile 190 arasında çelişiyor). Yerleşim içinde ASM, 112 istasyonu ve poliklinik önerilir.
+- **Sosyal yaşam:** Arazinin içinde 2–3 ha yapay göl (programda 2,5 ha) ve çevresinde tesisler. Doğal su kaynağı yoktur. Önerilen dolum yağmur suyu ve ileri arıtılmış atıksudur; şebeke yalnızca acil durumda kullanılır.
+- **Ulaşım:** Uydukent Ekspres (Uydukent–Kınık–HAB/Kışla, yaklaşık 19 km), ardından otobüs öncelikli koridor ve ekosistemin hafif raylı sistemine bağlantı.
 
 ## 4. Çalışmanın türü ve çıktılar
 
-- **Çalışmanın türü:** Bir fizibilite.
-- **Çıktı 1, PDF rapor:** Fizibilite ve çözüm önerileri.
-- **Çıktı 2, sunum:** Cumhurbaşkanlığı'na sunulacak.
-- **Sunumun talebi:** Henüz belli değil (bkz. 7.1). Sunumun kurgusu bu talebe göre kurulacak: bilgilendirme mi, karar talebi mi?
-- **Bakış açısı:** Örencik'in alternatif yerlere göre avantajları. Proje ekibinin ifadesiyle, "buranın olmasının diğer taraflara karşı oluşturduğu avantaj". Biz bunu alternatif sahalara göre avantaj olarak yorumladık; teyit bekliyor. Rapor Örencik'i şu üç seçenekle karşılaştırıyor: (A) hiçbir şey yapmamak, (B) TUSAŞ'ın hemen yanında bir saha, (C) Yenikent.
-- **Ton:** Çözüm odaklı. Sorunlar anlatılıp bırakılmaz; her sorunun yanında çözümü olur. Sorun analizleri arka plan olarak sona gider.
-- **Yöntem:** İnternet araştırması, deep research, beyin fırtınası. Silikon Vadisi ve benzeri dünya örnekleri kullanılır.
-- **Referanslar:** Belen & Partners portföyündeki projeler "yaptık" diye kullanılabilir. TAI Ankara Lodgings ve TAI Kahramanmaraş Lodgings and Factory için özellikle "yaptık" denebilir.
+- **Çalışmanın türü:** Fizibilite.
+- **Çıktı 1, PDF rapor:** `reports/Kahramankazan Uydukent fizibilitesi.pdf`. Araştırma notlarının içeriği rapora birleştirilir; ayrı ek notlar PDF'i yalnızca iç kullanım içindir.
+- **Çıktı 2, sunum:** `reports/Kahramankazan Uydukent sunumu.pptx` ve PDF'i. Cumhurbaşkanlığına sunulacak. Slayt sayısı sınırı kaldırıldı; sunum dolu ve görselli olacak.
+- **Sunumun talebi:** Hazine arazisinin savunma ve havacılık sanayi çalışanlarına yönelik bir yaşam alanı olarak değerlendirilmesi kararı.
+- **Bakış açısı:** Sarıayak'ın alternatiflere göre avantajları. Karşılaştırılan seçenekler: (A) mevcut durumun sürdürülmesi, (B) HAB'a bitişik bir saha, (C) Yenikent. "Yakınlık" en yakın nokta diye değil, yolculuk koridorunun değişmesi diye anlatılır.
+- **Ton ve dil:** Resmi Türkçe ("önerilmektedir", "öngörülmektedir"). Çözüm odaklı: her sorunun yanında çözümü yer alır. Belgelerde "Taslak" yazılmaz.
+- **Yöntem:** Kaynak araştırması, beyin fırtınası (bkz. `.claude/skills/beyin-firtinasi`), dünya ve Türkiye örnekleri.
+- **Görseller:**
+  - drone fotoğrafları (Sarıayak bölgesi)
+  - bölgeleme şeması
+  - ekosistem görselleri
+  - kavramsal 3B görseller (temsilî; mimari tasarım değildir)
+  - portföyden kendi projelerimizin görselleri
+- **Referanslar:** Belen & Partners portföyündeki projeler "yaptık" diye kullanılabilir; özellikle TAI Ankara Lodgings ile TAI Kahramanmaraş Lodgings and Factory.
 
 ## 5. Rapor ve sunumda bulunması gerekenler
 
-1. **Yönetici özeti:** Hedefler ve çözüm paketi tek tabloda.
-2. **Neden Örencik:** Alternatif sahalara göre avantajlar ve sorulabilecek zayıf noktalara hazır yanıtlar.
-3. **Çekim paketi:** Mühendisleri çekmek için zaman, fiyat ve ödeme, ürün, okul, topluluk, yatırım değeri ve talep ölçümü.
-4. **Çözüm paketi:** Ulaşım ve trafik, eğitim, sağlık, sosyal yaşam (yapay göl dahil), konut ve kapasite, altyapı ve veri güvenliği, finansman ve işletme. Her başlıkta hedef, çözüm, akıllı şehir katmanı, kim ve ne zaman.
-5. **Fizibilite:** Pazar fiyatları, alıcıların ödeme gücü ve finansman, Hazine arazisinin geçiş yolu, imar süreci, maliyetler, senaryolar, riskler ve eksik veriler.
-6. **Referanslarımız:** TUSAŞ ve Kahramankazan projeleri öne çıkar.
-7. **Uygulama takvimi:** Aşama 0 ilk konut teslimiyle aynı gün, Aşama 1 3–6 yıl, Aşama 2 6–12 yıl.
-8. **Açık noktalar:** Yalnızca iç kullanım için; sunuma girmez.
+1. Yönetici özeti: tek cümlelik öneri ve gösterge kutuları.
+2. Politika uyumu.
+3. Dünyada ve Türkiye'de benzer uygulamalar: eğitim, sağlık, göl ve parklar, topluluk yönetimi, havacılık kümeleri, ulaşım, akıllı şehir, Türkiye.
+4. Bölge ve ekosistem.
+5. Yer seçimi ve saha analizi.
+6. Alan programı ve bölgeleme şeması.
+7. Yaşam alanının bileşenleri: eğitim, sağlık, sosyal yaşam ve yapay göl, ulaşım (ulaşım projeleri tablosu dahil), akıllı şehir ve veri güvenliği.
+8. Savunma sanayiine katkılar.
+9. Yatırım tutarı ve kamu faydası.
+10. Etaplama ve karar kapıları.
+11. Riskler.
+12. Referanslarımız.
+13. Karar talebi ve sonraki adımlar.
+14. Açık noktalar: yalnızca iç kullanım için.
+
+**Çıkarılanlar:**
+- arazi edinim yolları
+- arazi maliyet tavanı
+- satış fiyatı ve ödeme gücü
+- ödeme planları
+- işveren katkısı
+- toplu satış
+- "özel şirket olarak satıyoruz" kurgusu
 
 ## 6. Dikkat edilecekler
 
-- **Rakamlar:** Doğrulanmamış rakamlar işaretli kalır. Sunuma girecek rakamlar (çalışan sayıları, yasak bölge sınırları, arazi statüsü, maliyetler) sunumdan önce ilgili kurumlardan teyit edilir.
-- **Roller:** Referanslarda roller doğru yazılır (danışmanlık, tasarım, tasarım ve yapım).
-- **Gizlilik:** TUSAŞ projeleri için sunuma girecek ayrıntılar (alan, konut sayısı, yıl) portföyde yazanın ötesine geçmez.
-- **Portföy kopyaları:** Portföyün 74. sayfası (UPEM paftası; koordinat ve güvenlik ayrıntısı içeriyor) dışarıya verilecek kopyalara girmez. Portföydeki yazım hataları düzeltilir: "Lodgigns", "Tehcnopark", "Managment", "KUVEYT".
+- **Rakamlar:** Doğrulanmamış rakamlar işaretli kalır. Çalışan sayıları, yasak bölge sınırları, arazi statüsü ve maliyetler sunumdan önce ilgili kurumlardan teyit edilir.
+- **Roller:** Referanslarda roller portföydeki gibi yazılır. GIA ve Serapınar "tasarım ve yapım", diğerleri "tasarım".
+- **Gizlilik:** Savunma tesisleriyle ilgili yalnızca kamuya açık ve genel bilgi kullanılır; pist ekseni ve tesis ayrıntısı çizilmez. TUSAŞ projeleri için ayrıntılar portföyde yazanın ötesine geçmez.
+- **Portföy kopyaları:** Portföyün 74. sayfası (UPEM paftası) dışarıya verilecek kopyalara girmez. Portföydeki yazım hataları düzeltilir: "Lodgigns", "Tehcnopark", "Managment", "KUVEYT".
 - **Veri güvenliği:** Akıllı şehirde savunma çalışanlarının verisinin korunması vurgulanır.
-- **Görsel kimlik:** Resmî kurum logosu ya da kimliği kullanılmaz; belgeler taslak olarak işaretlenir.
-- **Dil:** Türkçe.
+- **Görsel kimlik:** Resmî kurum logosu ya da kimliği kullanılmaz.
+- **Depo:** GitHub deposu public; savunma bağlamındaki taslaklar için private yapılması önerilir.
 
-## 7. Proje ekibinden beklenen yanıtlar
+## 7. Proje ekibinden beklenen teyitler
 
-İlk beşi önce gerekiyor; sunumun kurgusu ve fizibilitenin temeli bunlara bağlı.
+1. Sarıayak parselinin ada ve parsel numarası, koordinatı, sınırı ve sayısal halihazır haritası.
+2. Yamaçlardaki teraslı ağaçlandırmanın hukuki statüsü (6831 sayılı Kanun; Orman İşletme Müdürlüğü ve Milli Emlak kayıtları). Bu en kritik teyittir, çünkü yapılaşabilir alanı değiştirir.
+3. Zemin etüdü ve jeoteknik rapor (olası jipsli ya da marnlı zemin).
+4. İmar durumu ve üst ölçekli plan kararı; ASKİ, Başkent EDAŞ ve Başkentgaz kapasite görüşleri.
+5. Bölge görselindeki mesafelerin yol mesafesi mi kuş uçuşu mu olduğu.
+6. Ekosistem rakamlarının (35,6 milyon m², 100–200 bin kişi) kaynağı ve bileşenlerin plan durumu.
+7. Kahramankazan Devlet Hastanesi'nin kapasitesi; planlanan özel okulun kademeleri ve işletmecisi.
+8. Savunma sanayi çalışanlarına ön talep anketi yapılıp yapılamayacağı.
+9. TAI Kahramanmaraş Lodgings and Factory için alan ve yıl bilgisi.
+10. Uçuş ekseni ve gürültü ilişkisinin parsel koordinatıyla hesaplanması (MSB, SHGM).
+11. Kamu faydası hesabındaki yolculuk mesafesinin (ilk hesapta 25 km) Sarıayak'a göre güncellenip güncellenmeyeceği.
 
-1. Sunumu kim yapıyor ve Cumhurbaşkanlığı'ndan ne isteniyor? Örneğin arazinin devri, imar kolaylığı, TUSAŞ ile protokol ya da ulaşım yatırımı. "Biz" Belen & Partners mı, yoksa ayrı bir geliştirici şirket mi?
-2. Hazine arazisi hangi yolla alınacak: satış, üst hakkı ya da TOKİ veya Emlak Konut ile gelir paylaşımı?
-3. Parselin ada ve parsel numarası, sınırı ve arazi sınıfı (tarım arazisi mi?).
-4. Sunumun süresi, kime yapılacağı ve istenen biçim (slayt sayısı, PowerPoint mi?).
-5. Savunma çalışanlarına öncelik nasıl işleyecek: satışta öncelik ya da kontenjan, TUSAŞ'a toplu satış? Konutların bir kısmı kiralık ya da lojman olacak mı?
-6. Hedef satış fiyatı ve ödeme koşulları. TUSAŞ ile satış ya da kredi protokolü yapılabilir mi?
-7. TUSAŞ çalışanlarına satış öncesi anket ve ön kayıt yapılabilir mi? TUSAŞ'tan mevcut veri alınabilir mi: çalışanların oturduğu semtler, ev sahipliği oranı, medeni durum?
-8. Şirketin hedef getirisi ve finansmanı (öz sermaye, kredi), varsa.
-9. İlk konut teslimi için hedef bir yıl, varsa.
-10. Yapay gölün yeri (arazinin içinde mi?), büyüklüğü ve su kaynağı.
-11. Şehir hastanesinin adı ve kapasitesi. Planlanan özel okulların sayısı ve kademeleri; okulları kim yapıp işletecek?
-12. "Diğer taraflara karşı avantaj" derken alternatif sahalar mı kastediliyor, başka bir şey mi? Elinizde başka aday saha var mı?
-13. TAI Kahramanmaraş Lodgings and Factory için alan, yıl, konut sayısı ve kapsam.
-14. Örencik ile TAI Ankara Lodgings'in ilişkisi: devamı mı, alternatifi mi?
+## 8. Varsayımlar ve kararlar
 
-## 8. Bizim varsayımlarımız ve kararlarımız
+Aşağıdakiler çalışmanın varsayım ve kararlarıdır; yanlışsa düzeltin.
 
-Aşağıdakiler bizim kararımızdır; yanlışsa düzeltin.
-
-- **Kapasite:** 51,1 ha yoğunluğa göre yaklaşık 6–19 bin kişi (1.900–6.000 konut) alır. Bu bir üst sınır, hedef değil. Alt sınır TAI Ankara Lodgings yoğunluğundan geliyor. İlk satış etabı 600–800 konut.
-- **Ulaşım hedefi:** Örencik'ten TUSAŞ'a kapıdan kapıya 35 dakikanın altı.
-- **Aşama süreleri:** Aşama 1 3–6 yıl, Aşama 2 6–12 yıl.
-- **Takvim:** Hedef yıl gelene kadar takvim göreli yazılır: süreler arazi devrinden ve ilk konut tesliminden sayılır.
-- **Kamu ve özel sorumluluk:** Proje ekibinin "var" dediği şehir hastanesi mevcut kamu hizmeti olarak yazılır. "Planlanıyor" denen özel okullar ve yapay göl proje kapsamındadır. Geri kalan her şey bizim önerimizdir; hangi kurumun yapacağı her başlığın "kim ve ne zaman" satırında yazar. İlk gün çalışacak servis hatları şirket ile TUSAŞ arasında servis sözleşmesiyle kurulur. BRT ve raylı sistem kamuya önerilen yatırımlardır.
-- **Fizibilitenin ölçütü:** Şirketin hedef getirisi gelene kadar getiri oranı hesaplanmaz. Senaryolar ödeme gücü, satış fiyatı ve arazi maliyeti tavanı üzerinden kurulur.
-- **Güvenlik kısıtları:** Raporda inceledik. Örencik, 2565 sayılı Kanun'un 2. derece bölgesinin (5–10 km) ve ICAO mania yüzeylerinin (~6 km) dışında kalıyor. Mürted pistinin kuzey uzatma ekseni arazinin güneydoğu köşesinin ~0,4 km yanından geçiyor; bu gürültü ve alıcı algısı açısından ele alınıyor. Kesin sınırlar MSB'den teyit edilecek.
-- **Sunumdaki rakamlar:** Sunumda rakamlar aralık ve senaryo olarak verilir. Kaynakları ve teyit durumu PDF'te durur. Teyit edilmemiş hiçbir rakam kesin değer gibi sunulmaz.
-- **Fizibilite önerileri:** 70–85 m²'lik 2+1 çekirdek ürün, 36.000–40.000 TL/m² lansman fiyatı, basamaklı ödeme planı. Ayrıntısı ana raporun "Fizibilite" bölümünde.
+- **Program:** Önerilen senaryo 2.500 konut, yaklaşık 7.500 kişi. Arazinin yaklaşık %20'si (10 ha) korunan yamaç ve yarıntıdır. Ayrıntı `research_notes/Örencik yaşam alanı fizibilitesi/09`.
+- **Yatırım:** Toplam yaklaşık 12,54 milyar TL (9,93–15,94); kamu ve ortak kullanım payı yaklaşık 3,29 milyar TL (2,54–4,11). Tutarlar 2026 TL, KDV ve arazi hariçtir. Ayrıntı not 10'da.
+- **Ulaşım hedefi:** Sanayi bölgelerine kapıdan kapıya 35 dakikanın altında ulaşım. İlk günden 13 elektrikli ekspres otobüs.
+- **Aşama süreleri:** Aşama 0 ilk konut teslimiyle eş zamanlı; Aşama 1 3–6 yıl; Aşama 2 6–12 yıl. Takvim, hedef yıl gelene kadar arazi tahsisinden ve ilk konut tesliminden itibaren göreli yazılır.
+- **Güvenlik kısıtları:** Uydukent'in HAB / Kışla bölgesine yaklaşık 19 km uzaklığı, 2565 sayılı Kanun'un 2. derece bölgesinin (5–10 km) ve ICAO yüzeylerinin (~6 km) dışında kalmasını olası kılar. Kesin değerlendirme parsel koordinatıyla yapılacak ve MSB'den teyit edilecektir.
+- **Sunumdaki rakamlar:** Rakamlar aralık ve senaryo olarak verilir; kaynakları ve teyit durumu raporda durur.
 
 ## 9. Dosyalar
 
-- **Ana rapor (md):** `reports/Kahramankazan TUSAŞ çalışan yerleşimi.md`
-- **Ana rapor (PDF, 29 sayfa, fizibilite dahil):** `reports/Kahramankazan Örencik akıllı şehir raporu.pdf`
-- **Fizibilite (md, ayrı bölüm):** `reports/Örencik fizibilite pazar ve maliyet verileri.md`
-- **Ek araştırma notları (PDF):** `reports/Kahramankazan Örencik akıllı şehir - Ek araştırma notları.pdf`. İlk 11 notu içeriyor, fizibilite notları henüz ekte değil.
-- **Araştırma notları:** `research_notes/Kahramankazan TUSAŞ çalışan yerleşimi/` ve `research_notes/Örencik fizibilite pazar ve maliyet verileri/`
-- **Portföy:** `Belen&Partners.pdf`
+- **Rapor (md ve PDF):** `reports/Kahramankazan Uydukent fizibilitesi.md` ve `.pdf`
+- **Sunum:** `reports/Kahramankazan Uydukent sunumu.pptx` ve `.pdf`
+- **Ek araştırma notları (iç kullanım):** `reports/Kahramankazan Uydukent fizibilitesi - Ek araştırma notları.pdf`
+- **Araştırma notları:** `research_notes/`. Klasör adlarındaki "Örencik" tarihsel addır.
+- **Eski çerçevedeki çıktılar:** `reports/arsiv/`
+- **Görseller:** `reports/gorseller/`
+- **Portföyün ilgili sayfaları:** `docs/portfoy/Belen_Partners_ilgili_sayfalar.pdf`. Tam portföy `Belen&Partners.pdf` yerel klasörde durur.
