@@ -1,4 +1,4 @@
-"""Abstract zoning diagram (SVG) for the 51.1 ha Örencik living area; 1 SVG unit = 1 m."""
+"""Abstract zoning diagram (SVG) for the 51.1 ha Kahramankazan Uydukent living area (Sarıayak); 1 SVG unit = 1 m."""
 import math
 import sys
 from pathlib import Path
@@ -94,7 +94,7 @@ def svg() -> str:
     out.append(text(hub[0], hub[1] + 6, "S", 18, "700", "#fff"))
     out.append(text(hub[0] + 28, hub[1] - 4, "Servis ve aktarma", 16, "700", anchor="start"))
     out.append(text(hub[0] + 28, hub[1] + 15, "istasyonu", 16, "700", anchor="start"))
-    out.append(text(ent[0] + 10, ent[1] + 52, "↙ Kahramankazan merkezi ve TUSAŞ yönü", 16, "600", anchor="end"))
+    out.append(text(ent[0] + 10, ent[1] + 52, "↙ Kahramankazan ve sanayi bölgeleri", 16, "600", anchor="end"))
     # labels: (label, design offset (dx, dy) from centroid, size, color, lines)
     special = {
         "Yapay göl": (0, 0, 18, "#ffffff"), "Göl parkı": (0, 100, 16, None),
@@ -137,7 +137,7 @@ def svg() -> str:
             "", "Önerilen senaryo: 2.500 konut,", "yaklaşık 7.500 kişi, 51,1 ha."]
     for i, s in enumerate(note):
         out.append(text(lx, y + 50 + i * 24, s, 15, "500", "#444", "start"))
-    out.append(text(40, 36, "Örencik yaşam alanı: bölgeleme şeması (önerilen senaryo)", 26, "700", anchor="start"))
+    out.append(text(40, 36, "Kahramankazan Uydukent: bölgeleme şeması (önerilen senaryo)", 26, "700", anchor="start"))
     out.append("</svg>")
     return "\n".join(out), areas
 

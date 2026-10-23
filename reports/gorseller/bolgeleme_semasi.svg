@@ -24,7 +24,7 @@
 <text x="340.0" y="607.5" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">S</text>
 <text x="368.0" y="597.5" font-size="16" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Servis ve aktarma</text>
 <text x="368.0" y="616.5" font-size="16" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">istasyonu</text>
-<text x="283.0" y="730.0" font-size="16" font-weight="600" fill="#2b2b2b" text-anchor="end" font-family="Calibri, Segoe UI, Arial">↙ Kahramankazan merkezi ve TUSAŞ yönü</text>
+<text x="283.0" y="730.0" font-size="16" font-weight="600" fill="#2b2b2b" text-anchor="end" font-family="Calibri, Segoe UI, Arial">↙ Kahramankazan ve sanayi bölgeleri</text>
 <text x="549.6" y="156.9" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Kuzey mahallesi</text>
 <text x="192.7" y="467.9" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Batı mahallesi</text>
 <text x="925.8" y="260.8" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Doğu mahallesi</text>
@@ -80,5 +80,5 @@
 <text x="1215.0" y="630.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial"></text>
 <text x="1215.0" y="654.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Önerilen senaryo: 2.500 konut,</text>
 <text x="1215.0" y="678.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">yaklaşık 7.500 kişi, 51,1 ha.</text>
-<text x="40.0" y="36.0" font-size="26" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Örencik yaşam alanı: bölgeleme şeması (önerilen senaryo)</text>
+<text x="40.0" y="36.0" font-size="26" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Kahramankazan Uydukent: bölgeleme şeması (önerilen senaryo)</text>
 </svg>

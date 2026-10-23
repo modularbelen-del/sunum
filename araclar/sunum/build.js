@@ -1,4 +1,4 @@
-// Örencik yaşam alanı sunumu (PowerPoint).
+// Kahramankazan Uydukent sunumu (PowerPoint).
 // Kullanım: python araclar/sunum/gorseller.py && NODE_PATH=araclar/sunum/node_modules PPTX_SKILL=<pptx becerisi> node araclar/sunum/build.js <çıktı.pptx>
 const path = require("path");
 const pptxgen = require("pptxgenjs");
@@ -17,7 +17,7 @@ const HEX = {
   line: "DDD8CC", good: "E2ECDD", mid: "F7EBD3", bad: "F6DFDB", tint: "F3E6D3", navy2: "15406A",
 };
 const THEME = {
-  name: "Örencik",
+  name: "Uydukent",
   headFontFace: "Cambria",
   bodyFontFace: "Calibri",
   colors: {
@@ -32,12 +32,12 @@ pres.layout = "LAYOUT_WIDE"; // 13.333 x 7.5
 pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
 pres.author = "Belen & Partners";
 pres.company = "Belen &amp; Partners";
-pres.title = "Örencik yaşam alanı fizibilitesi";
+pres.title = "Kahramankazan Uydukent fizibilitesi";
 pres.subject = "Savunma ve havacılık sanayi çalışanları için akıllı bir yaşam alanı";
 const C = pres.SchemeColor;
 
 const W = 13.333, L = 0.6, CW = 12.133, TOP = 1.75;
-const FOOT = "Belen & Partners · Örencik yaşam alanı fizibilitesi · Ekim 2026 · Taslak";
+const FOOT = "Belen & Partners · Kahramankazan Uydukent fizibilitesi · Ekim 2026 · Taslak";
 
 // ---------- Layouts ----------
 function kickerPh(color) {
@@ -166,33 +166,33 @@ async function build() {
   pres.addSection({ title: "Giriş" });
   {
     const s = slideOf("KAPAK", "Giriş");
-    s.addImage({ path: A("kapak.jpg"), x: 0, y: 0, w: W, h: 7.5, objectName: "Kapak fotoğrafı: Örencik platosundan ova" });
+    s.addImage({ path: A("kapak.jpg"), x: 0, y: 0, w: W, h: 7.5, objectName: "Kapak fotoğrafı: bölgeden ova manzarası" });
     s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 0, w: W, h: 7.5, fill: { color: C.text2, transparency: 28 }, line: { type: "none" }, objectName: "Karartma" });
     txt(s, "FİZİBİLİTE SUNUMU · TASLAK", { x: L, y: 1.75, w: 8, h: 0.35, fontSize: 14, bold: true, color: C.accent4, charSpacing: 2 });
-    s.addText("Örencik yaşam alanı", { placeholder: "title" });
+    s.addText("Kahramankazan Uydukent", { placeholder: "title" });
     s.addText("Savunma ve havacılık sanayi çalışanları için akıllı bir yaşam alanı", { placeholder: "subtitle" });
-    txt(s, "Kahramankazan, Ankara · 511.000 m² Hazine arazisi", { x: L, y: 4.9, w: 8, h: 0.35, fontSize: 16, color: C.background2 });
+    txt(s, "Sarıayak, Kahramankazan · 511.000 m² Hazine arazisi", { x: L, y: 4.9, w: 8, h: 0.35, fontSize: 16, color: C.background2 });
     txt(s, "Belen & Partners · Ekim 2026", { x: L, y: 6.55, w: 8, h: 0.35, fontSize: 14, bold: true, color: C.background1 });
-    s.addNotes("Açılış. Belen & Partners olarak Kahramankazan Örencik Mahallesi'ndeki 511 bin metrekarelik Hazine arazisi için hazırladığımız fizibiliteyi sunuyoruz. Arka plandaki fotoğraf, arazinin bulunduğu platodan Kahramankazan ovasına bakıyor; drone çekimi 22 Eylül 2026. Bu bir taslaktır; rakamların bir kısmı kurumlardan teyit bekliyor.");
+    s.addNotes("Açılış. Belen & Partners olarak Kahramankazan Sarıayak'taki 511 bin metrekarelik Hazine arazisi için hazırladığımız Kahramankazan Uydukent fizibilitesini sunuyoruz. Arka plandaki fotoğraf bölgeden Kahramankazan ovasına bakıyor; drone çekimi 22 Eylül 2026. Bu bir taslaktır; rakamların bir kısmı kurumlardan teyit bekliyor.");
   }
   {
     const s = slideOf("KOYU", "Giriş");
     head(s, "ÖZET", "Önerimiz bir cümlede");
-    txt(s, "Örencik'teki 511 bin m²'lik Hazine arazisine, savunma ve havacılık sanayi çalışanları için okulu, sağlığı ve gölüyle, herkese açık bir yaşam alanı kurulabilir.",
+    txt(s, "Sarıayak'taki 511 bin m²'lik Hazine arazisine, savunma ve havacılık sanayi çalışanları için okulu, sağlığı ve gölüyle, herkese açık bir yaşam alanı kurulabilir: Kahramankazan Uydukent.",
       { x: L, y: 1.85, w: 11.2, h: 1.5, fontSize: 26, italic: true, fontFace: "Cambria", color: C.background1 });
     const tiles = [
       ["51,1 ha", "Hazine arazisi; satın alma yok"],
       ["2.500", "konut (önerilen senaryo)"],
       ["~7.500", "kişi"],
       ["~12,5 mlr", "TL toplam yatırım (9,9–15,9)"],
-      ["< 35 dk", "TUSAŞ'a ekspresle (hedef)"],
+      ["< 35 dk", "sanayi bölgelerine ekspresle (hedef)"],
     ];
     const tw = (CW - 4 * 0.25) / 5;
     tiles.forEach(([v, l], i) => stat(s, L + i * (tw + 0.25), 3.85, tw, 1.95, v, l,
       { fill: C.background1, transparency: 88, noShadow: true, vcolor: C.accent4, lcolor: C.background1, vsize: 28, lsize: 14 }));
     txt(s, "Konutlar satılık ve herkese açık; savunma sanayi çalışanlarına öncelikli. Tutarlar 2026 TL, KDV ve arazi hariç.",
       { x: L, y: 6.15, w: CW, h: 0.35, fontSize: 13, color: C.background2 });
-    s.addNotes("Tek cümlelik mesaj bu. Arazi Hazine'nin; satın alınmıyor, ne yapılacağına Cumhurbaşkanlığı karar verecek. Önerilen senaryo 2.500 konut ve yaklaşık 7.500 kişi. Toplam yatırım baz senaryoda yaklaşık 12,5 milyar TL; aralık 9,9 ile 15,9 milyar TL. TUSAŞ'a 35 dakikanın altı bir hedef; Örencik–TUSAŞ Ekspres ile sağlanıyor.");
+    s.addNotes("Tek cümlelik mesaj bu. Arazi Hazine'nin; satın alınmıyor, ne yapılacağına Cumhurbaşkanlığı karar verecek. Önerilen senaryo 2.500 konut ve yaklaşık 7.500 kişi. Toplam yatırım baz senaryoda yaklaşık 12,5 milyar TL; aralık 9,9 ile 15,9 milyar TL. HAB ve Kınık sanayi alanlarına 35 dakikanın altı bir hedef; Uydukent Ekspres ile sağlanıyor.");
   }
   {
     const s = slideOf("ICERIK", "Giriş");
@@ -206,7 +206,7 @@ async function build() {
     const rows = [
       ["FaChartLine", "Hedef: iki kat istihdam", "12. Kalkınma Planı, sektör istihdamını 2022'deki 81,1 binden 2028'de 158 bine çıkarmayı hedefliyor."],
       ["FaTriangleExclamation", "Resmi tehdit: yetenek kaybı", "SSB Stratejik Planı 2024–2028, deneyimli personelin yurt dışına ya da başka sektörlere geçmesini tehdit olarak yazıyor."],
-      ["FaIndustry", "Kahramankazan kümesi", "TUSAŞ'ta 13–17 bin çalışan (2023–24 beyanları); bitişikteki HAB OSB'de 15 bin istihdam hedefi."],
+      ["FaIndustry", "Kahramankazan kümesi", "Kümenin ana firmasında 13–17 bin çalışan (TUSAŞ, 2023–24 beyanları); HAB OSB'de 15 bin istihdam hedefi."],
     ];
     for (let i = 0; i < rows.length; i++) {
       const y = TOP + 0.05 + i * 1.6;
@@ -218,46 +218,71 @@ async function build() {
     s.addNotes("Neden şimdi? Kalkınma Planı sektörün istihdamını altı yılda neredeyse ikiye katlamayı hedefliyor. Bu insanların yaşayacağı, çocuklarını okutacağı yer bir altyapı sorunu. SSB'nin kendi stratejik planı deneyimli personelin ayrılmasını resmi tehdit olarak tanımlıyor. TUSAŞ çalışan sayısı kaynağa göre 13 ile 17 bin arasında; 2026 için resmi rakam yok, teyit edilecek.");
   }
 
+  {
+    const s = slideOf("ICERIK", "Giriş");
+    head(s, "GİRİŞ · EKOSİSTEM", "Kahramankazan 2030 ekosistemi");
+    const iw = 7.55, ih = iw * 9 / 16;
+    s.addImage({ path: A("ekosistem.jpg"), x: L, y: TOP, w: iw, h: ih, objectName: "Kahramankazan 2030 savunma sanayii ekosistemi" });
+    const rx = L + iw + 0.35, rw = W - L - rx;
+    const parts = [
+      ["1", "C93BB8", "Kentsel Dönüşüm Bölgesi", "Kahramankazan merkezi"],
+      ["2", "D9363E", "HAB Uzay Gelişim Alanı", "Kışla Bölgesi"],
+      ["3", "2F7DE1", "Uydukent: bu çalışma", "Sarıayak Bölgesi · 51,1 ha"],
+      ["4", "E8831F", "Kınık Özel Endüstri Sanayi Alanı", "Kınık Bölgesi"],
+      ["5", "F0A040", "Hafif raylı ulaşım sistemi", "Kahramankazan–Kışla hattı"],
+      ["+", "2AAFB8", "Tropik yaşam ve sağlık merkezi", "Soğucak Bölgesi"],
+    ];
+    parts.forEach(([n, col, t, d], i) => {
+      const y = TOP + i * 0.6;
+      if (n === "3") s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: rx - 0.1, y: y - 0.06, w: rw + 0.1, h: 0.6, rectRadius: 0.06, fill: { color: C.background1 }, line: { color: "2F7DE1", width: 1.25 }, objectName: "Bu çalışma" });
+      s.addText(n, { shape: pres.shapes.OVAL, x: rx, y: y + 0.03, w: 0.42, h: 0.42, fill: { color: col }, color: HEX.white, fontSize: 14, bold: true, align: "center", valign: "middle", margin: 0, objectName: "Bölge " + n });
+      txt(s, [{ text: t, options: { bold: true, color: C.text2, fontSize: 14, breakLine: true } }, { text: d, options: { fontSize: 12, color: C.accent5 } }],
+        { x: rx + 0.55, y: y - 0.03, w: rw - 0.6, h: 0.55, valign: "middle" });
+    });
+    stat(s, rx - 0.1, TOP + 3.7, rw + 0.1, 1.1, "35,6 mn m² · 100–200 bin kişi", "ekosistemin tamamı, diğer projelerle birlikte", { vsize: 18, lsize: 12 });
+    source(s, "Kaynak: proje ekibinin ekosistem görseli (vizyon; teyit edilecek). Uydukent'in kendi programı: 51,1 ha, 2.500 konut, ~7.500 kişi.");
+    s.addNotes("Uydukent tek başına bir proje değil; Kahramankazan için kurgulanan 2030 savunma sanayii ekosisteminin parçası. Ekosistemde ilçe merkezinin kentsel dönüşümü, Kışla'daki HAB uzay gelişim alanı, Kınık'taki özel endüstri sanayi alanı, Soğucak'taki tropik yaşam ve sağlık merkezi ve bunları bağlayan hafif raylı sistem var. Ekosistemin tamamı 35,6 milyon metrekare ve diğer projelerle birlikte 100 ile 200 bin kişilik bir kapasite. Uydukent bunun yaşam alanı ayağı: 51,1 hektar, 2.500 konut, yaklaşık 7.500 kişi. İlk brifteki 100 bin kişi rakamı da bu ekosistem ölçeğine karşılık geliyor.");
+  }
+
   // ===== Yer ve saha =====
   pres.addSection({ title: "Yer ve saha" });
   {
     const s = slideOf("ICERIK", "Yer ve saha");
     head(s, "YER VE SAHA · KONUM", "Aynı ilçede, sıkışık koridorun dışında");
-    const mh = 4.85, mw = mh * 1759 / 1786;
-    s.addImage({ path: A("harita.png"), x: L, y: TOP, w: mw, h: mh, objectName: "Konum ve koridor diyagramı" });
-    const bx = 6.2, bw = 6.53;
-    txt(s, "TUSAŞ'a kuş uçuşu uzaklık (km)", { x: bx, y: TOP, w: bw, h: 0.35, fontSize: 16, bold: true, color: C.text2 });
-    const dist = [["Yenikent", 9.1, null], ["Eryaman", 11.7, null], ["Kahramankazan merkezi", 16.9, null], ["Batıkent", 16.9, null], ["Örencik", 18.7, 21.7]];
-    const lx = bx, lw = 2.3, barX = bx + lw + 0.1, scale = 3.0 / 22;
-    dist.forEach(([n, a, b], i) => {
-      const y = TOP + 0.48 + i * 0.44;
-      const isO = n === "Örencik";
-      txt(s, n, { x: lx, y, w: lw, h: 0.36, fontSize: 14, bold: isO, color: isO ? C.accent1 : C.text1, valign: "middle", align: "right" });
-      s.addShape(pres.shapes.RECTANGLE, { x: barX, y: y + 0.06, w: a * scale, h: 0.24, fill: { color: isO ? C.accent1 : C.accent5 }, line: { type: "none" }, objectName: "Uzaklık çubuğu " + n });
-      if (b) s.addShape(pres.shapes.RECTANGLE, { x: barX + a * scale, y: y + 0.06, w: (b - a) * scale, h: 0.24, fill: { color: C.accent1, transparency: 55 }, line: { type: "none" }, objectName: "Uzaklık aralığı" });
-      txt(s, b ? "18,7–21,7" : String(a).replace(".", ","), { x: barX + (b || a) * scale + 0.1, y, w: 1.0, h: 0.36, fontSize: 14, bold: isO, valign: "middle", color: isO ? C.accent1 : C.text1 });
+    const iw = 7.3, ih = iw * 1350 / 2400;
+    s.addImage({ path: A("mesafeler.jpg"), x: L, y: TOP, w: iw, h: ih, objectName: "Bölge mesafeleri" });
+    txt(s, "Proje ekibinin bölge görseli; ölçeksiz perspektif, mesafeler görseldeki değerlerdir.", { x: L, y: TOP + ih + 0.08, w: iw, h: 0.3, fontSize: 11, color: C.accent5 });
+    const bx = L + iw + 0.35, bw = W - L - bx;
+    txt(s, "Uydukent'ten uzaklık (km)", { x: bx, y: TOP, w: bw, h: 0.35, fontSize: 16, bold: true, color: C.text2 });
+    const dist = [["Kahramankazan merkezi", 8, false], ["Kınık sanayi alanı", 11, false], ["HAB / Kışla, Kınık üzerinden", 19, true], ["HAB / Kışla, merkez üzerinden", 24, false]];
+    const scale = 3.6 / 24;
+    dist.forEach(([n, v, hi], i) => {
+      const y = TOP + 0.45 + i * 0.6;
+      txt(s, n, { x: bx, y, w: bw, h: 0.26, fontSize: 13, bold: hi, color: hi ? C.accent1 : C.text1 });
+      s.addShape(pres.shapes.RECTANGLE, { x: bx, y: y + 0.29, w: v * scale, h: 0.2, fill: { color: hi ? C.accent1 : C.accent5 }, line: { type: "none" }, objectName: "Uzaklık çubuğu " + n });
+      txt(s, String(v), { x: bx + v * scale + 0.08, y: y + 0.22, w: 0.6, h: 0.32, fontSize: 14, bold: true, valign: "middle", color: hi ? C.accent1 : C.text1 });
     });
-    card(s, bx, 4.45, bw, 2.05, { fill: C.background1 });
+    card(s, bx, TOP + 2.95, bw, 1.5, { fill: C.background1 });
     txt(s, [
-      { text: "Mesaj: yakınlık değil, koridor değişimi", options: { bold: true, color: C.text2, fontSize: 16, breakLine: true } },
-      { text: "Örencik TUSAŞ'a en yakın nokta değil. Kazanç, işe yolculuğun Batıkent–Susuz kentsel kesiminden çıkıp Kahramankazan–Saray koridoruna geçmesi. Örencik–TUSAŞ Ekspres bu yolu sabit sürede bağlar.", options: { fontSize: 14 } },
-    ], { x: bx + 0.25, y: 4.62, w: bw - 0.5, h: 1.75, paraSpaceAfter: 6 });
-    source(s, "Mesafeler OSM koordinatlarıyla kuş uçuşu hesaplandı; Örencik için mahalle güney sınırı ile merkezi arası. Yol mesafesi ~24–28 km (tahmin).");
-    s.addNotes("Örencik Kahramankazan ilçe merkezinin hemen kuzeyinde. TUSAŞ'a kuş uçuşu 19 ile 22 kilometre; Eryaman ve Yenikent daha yakın, bunu açıkça söylüyoruz. Avantaj yakınlık değil: Ankara'nın en sıkışık sabah koridoru Batıkent–Susuz kesimi. Örencik'ten gelen yolculuk bu kesime hiç girmiyor; ilçe içinden Saray üzerinden TUSAŞ'a ekspres hatla gidiyor. Yenikent aktarması ise Ankara'da oturmaya devam edenler için.");
+      { text: "Yakınlık değil, koridor değişimi", options: { bold: true, color: C.text2, fontSize: 15, breakLine: true } },
+      { text: "Eryaman'dan TUSAŞ'a kuş uçuşu 11,7 km, Yenikent'ten 9,1 km. Kazanç, yolculuğun Batıkent–Susuz kesiminden çıkıp ilçe içinde ekspresle gitmesi.", options: { fontSize: 13 } },
+    ], { x: bx + 0.2, y: TOP + 3.07, w: bw - 0.4, h: 1.3, paraSpaceAfter: 4 });
+    source(s, "19 ve 24 km, görseldeki iki bacağın toplamıdır (hesap). Kahramankazan–Kışla 16 km değeri, OSM'den hesaplanan 16,9 km ile uyumlu.");
+    s.addNotes("Uydukent Sarıayak'ta, Kahramankazan merkezine 8 kilometre. Kınık sanayi alanına 11, Kınık üzerinden HAB ve Kışla bölgesine yaklaşık 19 kilometre. Sanayi bölgelerine en yakın nokta değil: Eryaman ve Yenikent TUSAŞ'a daha yakın, bunu açıkça söylüyoruz. Avantaj, Ankara'nın en sıkışık sabah koridoru olan Batıkent–Susuz kesimine hiç girmeden, ilçe içinden ekspres hatla gidilmesi. Mesafeler proje ekibinin bölge görselinden; yol mesafesi mi kuş uçuşu mu olduğu teyit edilecek.");
   }
   {
     const s = slideOf("ICERIK", "Yer ve saha");
-    head(s, "YER VE SAHA · YER SEÇİMİ", "Alternatiflere göre Örencik");
+    head(s, "YER VE SAHA · YER SEÇİMİ", "Alternatiflere göre Uydukent");
     const G = HEX.good, M = HEX.mid, B = HEX.bad;
     const c = (t, fill, bold) => ({ text: t, options: { fill: { color: fill }, bold: !!bold } });
     const rows = [
-      ["Ölçüt", "(A) Bir şey yapmamak", "(B) TUSAŞ'a bitişik saha", "(C) Yenikent", "Örencik"],
+      ["Ölçüt", "(A) Bir şey yapmamak", "(B) HAB'a bitişik saha", "(C) Yenikent", "Uydukent (Sarıayak)"],
       ["Arazi", c("Yeni arazi yok", B), c("Belirsiz; askeri alan ve OSB ile iç içe", B), c("Belirsiz, kentsel parseller", M), c("511 bin m², tek malik Hazine", G, true)],
-      ["Askeri kısıtlar", c("Etkilenmez", G), c("Yasak bölge içinde, yükseklik sınırı", B), c("Sınıra yakın olabilir", M), c("Yasak bölgenin ve ICAO yüzeylerinin dışında", G, true)],
+      ["Askeri kısıtlar", c("Etkilenmez", G), c("Yasak bölge içinde, yükseklik sınırı", B), c("Sınıra yakın olabilir", M), c("HAB'a ~19 km; yasak bölge dışında (teyit)", G, true)],
       ["Sabah piki", c("Sürer ve büyür", B), c("Azalır", G), c("Azalır", G), c("Azalır: yolculuk koridor değiştirir", G, true)],
-      ["TUSAŞ'a uzaklık", c("12–17 km", M), c("5 km'den az", G), c("~9 km", G), c("19–22 km: ekspresle telafi", B, true)],
-      ["Raylı erişim", c("Var", G), c("Yok", B), c("Var (Başkentray)", G), c("Yok: Yenikent aktarması", B, true)],
-      ["Kent hizmetleri", c("Tam", G), c("Sıfırdan kurulur", B), c("Sincan hizmetleri", G), c("İlçe merkezi 3–6 km", G, true)],
+      ["Sanayi bölgesine uzaklık", c("12–17 km", M), c("5 km'den az", G), c("~9 km", G), c("Kınık 11 km, HAB ~19 km", M, true)],
+      ["Raylı erişim", c("Var", G), c("Yok", B), c("Var (Başkentray)", G), c("Planlanan hafif raylı sisteme bağlanır", M, true)],
+      ["Kent hizmetleri", c("Tam", G), c("Sıfırdan kurulur", B), c("Sincan hizmetleri", G), c("İlçe merkezi 8 km", G, true)],
       ["Tesisin büyüme alanı", c("Korunur", G), c("Daralır", B), c("Kısmen etkilenir", M), c("Korunur", G, true)],
     ];
     table(s, rows, { hdrFill: [HEX.navy, HEX.navy, HEX.navy, HEX.navy, HEX.ochre],
@@ -267,12 +292,12 @@ async function build() {
       s.addShape(pres.shapes.RECTANGLE, { x: L + i * 1.7, y: ly + 0.05, w: 0.22, h: 0.22, fill: { color: col }, line: { color: HEX.line, width: 0.75 }, objectName: "Gösterim" });
       txt(s, t, { x: L + 0.3 + i * 1.7, y: ly, w: 1.3, h: 0.32, fontSize: 12, valign: "middle" });
     });
-    txt(s, "Zayıf noktaların yanıtı: Örencik–TUSAŞ Ekspres ve Yenikent aktarması.", { x: 5.8, y: ly, w: 6.93, h: 0.32, fontSize: 13, bold: true, color: C.text2, valign: "middle", align: "right" });
-    s.addNotes("Örencik'i üç seçenekle karşılaştırdık: hiçbir şey yapmamak, TUSAŞ'ın hemen yanında bir saha ve Yenikent. Örencik'in iki zayıf noktası var: TUSAŞ'a uzaklık ve raylı sistem eksikliği; ikisini de ekspres hat ve Yenikent aktarmasıyla karşılıyoruz. Güçlü yanları: tek malikli kamu arazisi, kamulaştırma yok; askeri yasak bölgenin ve uçuş yüzeylerinin dışında; konut stratejik tesisin etrafını sarmıyor, tesisin büyüme alanı korunuyor; ilçe merkezinin hizmetlerine yaslanıyor. B ve C için arazi mülkiyeti araştırılmadı.");
+    txt(s, "Uzaklığın yanıtı: Uydukent Ekspres ve planlanan hafif raylı sistem.", { x: 5.8, y: ly, w: 6.93, h: 0.32, fontSize: 13, bold: true, color: C.text2, valign: "middle", align: "right" });
+    s.addNotes("Uydukent'i üç seçenekle karşılaştırdık: hiçbir şey yapmamak, HAB'ın hemen yanında bir saha ve Yenikent. Uydukent'in orta düzeyde iki noktası var: sanayi bölgelerine uzaklık ve raylı sistemin henüz olmaması; ikisini de ekspres hat ve ekosistemde planlanan hafif raylı sistemle karşılıyoruz. Güçlü yanları: tek malikli kamu arazisi, kamulaştırma yok; askeri yasak bölgenin ve uçuş yüzeylerinin dışında; konut stratejik tesisin etrafını sarmıyor, tesisin büyüme alanı korunuyor; ilçe merkezinin hizmetlerine yaslanıyor. B ve C için arazi mülkiyeti araştırılmadı.");
   }
   {
     const s = slideOf("ICERIK", "Yer ve saha");
-    head(s, "YER VE SAHA · DRONE ÇEKİMİ", "Saha: platolar ve yeşil yamaçlar");
+    head(s, "YER VE SAHA · BÖLGEDEN GÖRÜNÜM", "Bölge: platolar ve yeşil yamaçlar");
     s.addImage({ path: A("saha_buyuk.jpg"), x: L, y: TOP, w: 7.35, h: 4.8, objectName: "Örencik köyü ve plato" });
     s.addImage({ path: A("saha_sag1.jpg"), x: 8.15, y: TOP, w: 4.58, h: 2.3, objectName: "Yarıntı ve teraslı ağaçlandırma" });
     s.addImage({ path: A("saha_sag2.jpg"), x: 8.15, y: TOP + 2.5, w: 4.58, h: 2.3, objectName: "Yamaç terasları ve yollar" });
@@ -281,32 +306,32 @@ async function build() {
     chip("Vadide eski Örencik köyü, platoda tarlalar", L + 0.2, TOP + 4.2, 4.2);
     chip("Yarıntı ve teraslı çam ağaçlandırması", 8.35, TOP + 1.7, 3.4);
     chip("Yamaç terasları, enerji hattı ve yollar", 8.35, TOP + 4.2, 3.45);
-    source(s, "Drone çekimi: 22 Eylül 2026, proje ekibi. Parsel sınırı elde olmadığı için fotoğraflar sınırı göstermez.");
-    s.addNotes("Drone görüntüleri arazinin düz olmadığını gösteriyor. Tepe üstündeki buğday platoları yapılaşmaya uygun bölümler. Yamaçlarda erozyon yarıntıları ve eşyükselti teraslarına dikilmiş genç çamlar var; bu teraslı ağaçlandırmanın hukuki statüsü teyit edilecek. Vadide eski Örencik köyü duruyor; yeni yaşam alanı köyle birlikte tasarlanmalı. Platolardan ovaya geniş bir manzara açılıyor; bu bir değer.");
+    source(s, "Drone çekimi: 22 Eylül 2026, Örencik çevresi, proje ekibi. Görüntüler bölgenin arazi tipini gösterir; Sarıayak parseli ayrıca teyit edilecek.");
+    s.addNotes("Drone görüntüleri bölgenin arazi tipini gösteriyor; çekim Örencik çevresinde yapıldı, Sarıayak parselinin topoğrafyası ayrıca teyit edilecek. Arazi düz değil. Tepe üstündeki buğday platoları yapılaşmaya uygun bölümler. Yamaçlarda erozyon yarıntıları ve eşyükselti teraslarına dikilmiş genç çamlar var; bu teraslı ağaçlandırmanın hukuki statüsü teyit edilecek. Vadilerde eski köy yerleşimleri var; yeni yaşam alanı mevcut köyle birlikte tasarlanmalı. Platolardan ovaya geniş bir manzara açılıyor; bu bir değer.");
   }
   {
     const s = slideOf("ICERIK", "Yer ve saha");
     head(s, "YER VE SAHA · SAHA ANALİZİ", "Saha bulguları ve sonraki adımlar");
     const rows = [
       ["Konu", "Bulgu", "Anlamı", "Sonraki adım"],
-      ["Topoğrafya", "Düz platolar, dik yamaçlar, erozyon yarıntıları", "Konut platolara; alanın ~%20'si korunur", "Halihazır harita, eğim analizi"],
-      ["Ağaçlandırma", "Yamaçlarda teraslı genç çam dikimi", "Statü varsa yapılaşma dışında kalır", "6831 statüsü: Orman İşletme, Milli Emlak"],
+      ["Topoğrafya", "Bölgede platolar, dik yamaçlar, yarıntılar", "Konut platolara; alanın ~%20'si korunur", "Halihazır harita, eğim analizi"],
+      ["Ağaçlandırma", "Bölge yamaçlarında teraslı çam dikimi", "Statü varsa yapılaşma dışında kalır", "6831 statüsü: Orman İşletme, Milli Emlak"],
       ["Zemin", "Olası jipsli, marnlı birimler (tahmin)", "Temel ve altyapı maliyetini etkiler", "Zemin etüdü ve jeoteknik rapor"],
       ["Plan durumu", "Ankara ÇDP 2020'de iptal; 2050 planı onaylanmadı", "İmar statüsü belirsiz", "İmar durumu yazısı (ABB, ÇŞİDB)"],
       ["Deprem", "Akademik çalışma: Kazan için 0,30–0,35 g bandı", "Ankara ortalamasının üzerinde olabilir", "AFAD sorgusu, TBDY 2018"],
       ["Altyapı", "Enerji hattı, stabilize yollar; kapasite verisi yok", "Hat güzergâhı yerleşimi etkiler", "ASKİ, Başkent EDAŞ, Başkentgaz görüşü"],
-      ["Uçuş ekseni", "Pist uzatma ekseni güneydoğu köşeye ~0,4 km", "Gürültü ve algı riski", "Okul ve sağlık eksenden uzakta; MSB verisi"],
+      ["Uçuş ekseni", "HAB'a ~19 km; pist ekseni ilişkisi hesaplanmadı", "Gürültü ve algı riski olabilir", "Parsel koordinatıyla MSB ve SHGM verisi"],
     ];
     table(s, rows, { table: { colW: [1.75, 3.9, 3.2, 3.283], rowH: 0.58, fontSize: 14 } });
-    source(s, "Kaynak: drone tespitleri (22 Eylül 2026), ABB jeoloji raporu, akademik olasılıksal tehlike çalışması, OSM. Tümü teyit edilecek.");
-    s.addNotes("Sahanın yedi başlığı. En kritik teyit, yamaçlardaki teraslı ağaçlandırmanın orman ya da ağaçlandırma statüsü; 6831 sayılı Kanun kapsamındaysa o alanlar yapılaşma dışında kalır. Programımız bu alanları zaten korunan yamaç olarak ayırıyor. Zemin için jeoteknik etüt şart. Ankara'nın üst ölçek planı iptal edildiği için imar durumu kurumlardan yazıyla istenmeli. Pistin uzatma ekseni arazinin güneydoğu köşesine yakın geçiyor; bunu gürültü ve algı riski olarak ele alıyor, okul ve sağlık tesislerini eksenden uzak yerleştiriyoruz.");
+    source(s, "Kaynak: bölgedeki drone tespitleri (22 Eylül 2026), ABB jeoloji raporu, akademik olasılıksal tehlike çalışması. Tümü Sarıayak parseli için teyit edilecek.");
+    s.addNotes("Sahanın yedi başlığı. En kritik teyit, yamaçlardaki teraslı ağaçlandırmanın orman ya da ağaçlandırma statüsü; 6831 sayılı Kanun kapsamındaysa o alanlar yapılaşma dışında kalır. Programımız bu alanları zaten korunan yamaç olarak ayırıyor. Zemin için jeoteknik etüt şart. Ankara'nın üst ölçek planı iptal edildiği için imar durumu kurumlardan yazıyla istenmeli. Uydukent HAB ve Kışla bölgesine yaklaşık 19 kilometre; bu, askeri yasak bölgenin dışında kalmasını olası kılıyor. Pist ekseni ve gürültü ilişkisi parsel koordinatıyla yeniden hesaplanacak; okul ve sağlık tesisleri gerekirse eksenden uzak yerleştirilecek.");
   }
   {
     const s = slideOf("ICERIK", "Yer ve saha");
     head(s, "YER VE SAHA · POLİTİKA UYUMU", "Üst politika belgeleriyle uyum");
     const kp = { text: "12. Kalkınma Planı (2024–2028)", options: { rowspan: 5, bold: true, fill: { color: HEX.white }, valign: "middle" } };
     const rows = [
-      ["Belge", "Madde ve hedef", "Örencik'teki karşılığı"],
+      ["Belge", "Madde ve hedef", "Uydukent'teki karşılığı"],
       [kp, "m. 520.3, Tablo 22: istihdam 81,1 → 158 bin", "Nitelikli personelin bölgede yerleşmesi"],
       ["m. 430", "Sanayi yatırım yeri ile yaşam alanı erişimi"],
       ["m. 850, 853.2, 857", "Akıllı, yeşil, dirençli, mahalle kültürlü yerleşim"],
@@ -364,7 +389,7 @@ async function build() {
     const rows = [
       ["FaHouse", "Dört mahalle platolarda, manzaraya yönelik"],
       ["FaSchool", "İki okul kampüsü göl parkının batısında; en uzak konut ~500 m"],
-      ["FaBus", "Güneybatı girişinde servis ve aktarma istasyonu"],
+      ["FaBus", "Ana girişte servis ve aktarma istasyonu"],
       ["FaTree", "Korunan yamaçlar yeşil kuşak: yürüyüş ve seyir noktaları"],
     ];
     for (let i = 0; i < rows.length; i++) {
@@ -388,7 +413,7 @@ async function build() {
     const cx = 5.65, cw = (W - L - cx - 0.3) / 2;
     const cards = [
       ["FaSchool", "Devlet okul kampüsü", "2,2 ha · ~32 derslik", "Anaokulu, ilkokul ve ortaokul bir arada; MEB normunda. Spor salonu ve kütüphane akşamları mahalleye açık."],
-      ["FaUserGraduate", "Özel okul kampüsü", "2,4 ha · ~25 derslik", "İki dilli; anaokulundan liseye. Lise kademesi STEM ve havacılık ağırlıklı."],
+      ["FaUserGraduate", "Özel okul kampüsü", "2,4 ha · ~25 derslik", "İki dilli; anaokulundan liseye. Güçlü akademik program ve nitelikli öğretmen kadrosu."],
     ];
     for (let i = 0; i < cards.length; i++) {
       const x = cx + i * (cw + 0.3);
@@ -401,12 +426,12 @@ async function build() {
     card(s, cx, TOP + 2.95, W - L - cx, 1.85, { fill: C.background1 });
     txt(s, [
       { text: "Ayrıca: ", options: { bold: true, color: C.text2 } },
-      { text: "kreşler zemin katlarda ve mahalle merkezinde; her okulda Deneyap ve makerspace atölyesi; Gazi Üniversitesi TUSAŞ Kazan MYO ile staj ve sürekli eğitim.", options: { breakLine: true } },
+      { text: "kreşler zemin katlarda ve mahalle merkezinde; her okulda Deneyap ve makerspace atölyesi; ilçedeki meslek yüksekokuluyla staj ve sürekli eğitim.", options: { breakLine: true } },
       { text: "Kim ve ne zaman: ", options: { bold: true, color: C.text2 } },
-      { text: "MEB, özel okul yatırımcıları, TUSAŞ. İlk gün kreş ve modüler sınıflar." },
+      { text: "MEB, özel okul yatırımcıları, sanayi kuruluşları. İlk gün kreş ve modüler sınıflar." },
     ], { x: cx + 0.25, y: TOP + 3.12, w: W - L - cx - 0.5, h: 1.55, fontSize: 15, paraSpaceAfter: 8 });
     source(s, "1.000 kişi başına öğrenci (genç aile varsayımı): kreş-anaokulu 45, ilkokul 60, ortaokul 55, lise 45. Derslik başına 30 öğrenci (anaokulunda 20).");
-    s.addNotes("Eğitim, ailelerin taşınma kararında birinci ölçüt. Genç aile varsayımıyla yaklaşık 1.540 öğrenci ve 57 derslik çıkıyor. Önerimiz iki kampüs: MEB normunda bir devlet okul kampüsü ve iki dilli bir özel okul kampüsü; özel okulun lise kademesi STEM ve havacılık ağırlıklı. Kalıcı binalar bitene kadar modüler sınıflar ilk gün hizmet verir.");
+    s.addNotes("Eğitim, ailelerin taşınma kararında birinci ölçüt. Genç aile varsayımıyla yaklaşık 1.540 öğrenci ve 57 derslik çıkıyor. Önerimiz iki kampüs: MEB normunda bir devlet okul kampüsü ve iki dilli, nitelikli bir özel okul kampüsü. Kalıcı binalar bitene kadar modüler sınıflar ilk gün hizmet verir.");
   }
   {
     const s = slideOf("ICERIK", "Yaşam alanı");
@@ -425,7 +450,7 @@ async function build() {
       txt(s, ex[i][1], { x: x + 0.25, y: y + 1.05, w: cw - 0.5, h: 0.3, fontSize: 13, bold: true, color: C.accent1 });
       txt(s, ex[i][2], { x: x + 0.25, y: y + 1.4, w: cw - 0.5, h: 0.75, fontSize: 17, bold: true, color: C.text2 });
       txt(s, ex[i][3], { x: x + 0.25, y: y + 2.2, w: cw - 0.5, h: 1.2, fontSize: 15 });
-      txt(s, [{ text: "Örencik için ders", options: { bold: true, color: C.accent1, fontSize: 13, breakLine: true } }, { text: ex[i][4], options: { fontSize: 15 } }],
+      txt(s, [{ text: "Uydukent için ders", options: { bold: true, color: C.accent1, fontSize: 13, breakLine: true } }, { text: ex[i][4], options: { fontSize: 15 } }],
         { x: x + 0.25, y: y + 3.45, w: cw - 0.5, h: 1.2 });
     }
     source(s, "Kaynak: araştırma notları 04 ve 07 (kurum ve basın kaynakları). Dünya örneklerinin fotoğrafları telif nedeniyle kullanılmadı.");
@@ -436,7 +461,7 @@ async function build() {
     head(s, "YAŞAM ALANI · SAĞLIK", "Sağlık: birinci basamak yerleşimde");
     const tiers = [
       ["FaKitMedical", "Yerleşim içinde · ilk gün", "Aile sağlığı merkezi, 112 istasyonu ve poliklinik", "~2.500 m² bina, 1,12 ha alan; yürüme mesafesinde.", 7.2],
-      ["FaHospital", "İlçede · 3–6 km", "Kahramankazan Devlet Hastanesi", "2022'de açıldı; ~150 yatak (kaynaklarda 150–190). Ring hat ve randevuya bağlı servis.", 7.2],
+      ["FaHospital", "İlçede · ~8 km", "Kahramankazan Devlet Hastanesi", "2022'de açıldı; ~150 yatak (kaynaklarda 150–190). Ring hat ve randevuya bağlı servis.", 7.2],
       ["FaHeartPulse", "Ankara", "Üst basamak hastaneler", "Sevk zinciri ve tele-sağlık bağlantısı.", 7.2],
     ];
     for (let i = 0; i < tiers.length; i++) {
@@ -523,28 +548,30 @@ async function build() {
       txt(s, ex[i][1], { x: x + 0.25, y: y + 1.05, w: cw - 0.5, h: 0.3, fontSize: 13, bold: true, color: C.accent1 });
       txt(s, ex[i][2], { x: x + 0.25, y: y + 1.4, w: cw - 0.5, h: 0.75, fontSize: 17, bold: true, color: C.text2 });
       txt(s, ex[i][3], { x: x + 0.25, y: y + 2.2, w: cw - 0.5, h: 1.2, fontSize: 15 });
-      txt(s, [{ text: "Örencik için ders", options: { bold: true, color: C.accent1, fontSize: 13, breakLine: true } }, { text: ex[i][4], options: { fontSize: 15 } }],
+      txt(s, [{ text: "Uydukent için ders", options: { bold: true, color: C.accent1, fontSize: 13, breakLine: true } }, { text: ex[i][4], options: { fontSize: 15 } }],
         { x: x + 0.25, y: y + 3.45, w: cw - 0.5, h: 1.2 });
     }
     source(s, "Kaynak: araştırma notları 04 ve 07. Columbia gölleri 22–37 acre. Bishan ziyaretçi sayısı (yılda 6 milyonu aşkın) kurum beyanıdır.");
-    s.addNotes("Planlı kentlerde göl mahallenin merkezi olarak kullanılıyor. Reston'da Lake Anne köy merkezi bugün tescilli miras. Columbia'da göllerin bakımı sakin aidatıyla yapılıyor; yani işletme modeli baştan kuruluyor. Singapur Bishan'da beton bir kanal doğal bir nehir parkına dönüştürüldü. Ankara'daki yerel ders Göksu Parkı: 2021–22'de su kalitesi sorunları yaşandı. Bu yüzden Örencik'te sirkülasyon, arıtma ve bir işletmeci ilk günden planlanıyor.");
+    s.addNotes("Planlı kentlerde göl mahallenin merkezi olarak kullanılıyor. Reston'da Lake Anne köy merkezi bugün tescilli miras. Columbia'da göllerin bakımı sakin aidatıyla yapılıyor; yani işletme modeli baştan kuruluyor. Singapur Bishan'da beton bir kanal doğal bir nehir parkına dönüştürüldü. Ankara'daki yerel ders Göksu Parkı: 2021–22'de su kalitesi sorunları yaşandı. Bu yüzden Uydukent'te sirkülasyon, arıtma ve bir işletmeci ilk günden planlanıyor.");
   }
   {
     const s = slideOf("ICERIK", "Yaşam alanı");
-    head(s, "YAŞAM ALANI · ULAŞIM VE TRAFİK", "Ulaşım: TUSAŞ'a 35 dakikanın altında");
-    const st = [["Örencik", 0.95], ["Kahramankazan merkezi", 3.15], ["Saray", 5.35], ["TUSAŞ", 7.45]];
+    head(s, "YAŞAM ALANI · ULAŞIM VE TRAFİK", "Ulaşım: sanayi bölgelerine 35 dakikanın altında");
+    const st = [["Uydukent", 0.95, "Sarıayak"], ["Kınık sanayi alanı", 4.25, ""], ["HAB / Kışla", 7.45, ""]];
     const ly = TOP + 0.8;
-    s.addShape(pres.shapes.LINE, { x: st[0][1], y: ly, w: st[3][1] - st[0][1], h: 0, line: { color: C.text2, width: 6 }, objectName: "Ekspres hat" });
+    s.addShape(pres.shapes.LINE, { x: st[0][1], y: ly, w: st[2][1] - st[0][1], h: 0, line: { color: C.text2, width: 6 }, objectName: "Ekspres hat" });
     st.forEach(([n, x], i) => {
-      const end = i === 0 || i === 3;
+      const end = i !== 1;
       s.addShape(pres.shapes.OVAL, { x: x - 0.2, y: ly - 0.2, w: 0.4, h: 0.4, fill: { color: end ? C.accent1 : C.background1 }, line: { color: C.text2, width: 3 }, objectName: "Durak " + n });
-      txt(s, n, { x: x - 1.0, y: ly + 0.3, w: 2.0, h: 0.6, fontSize: 14, bold: end, align: "center", color: end ? C.text2 : C.text1 });
+      txt(s, n, { x: x - 1.0, y: ly + 0.3, w: 2.0, h: 0.35, fontSize: 14, bold: end, align: "center", color: end ? C.text2 : C.text1 });
     });
-    txt(s, "Örencik–TUSAŞ Ekspres · yol ~24–28 km (tahmin) · hedef kapıdan kapıya 35 dk'nın altı", { x: L, y: TOP, w: 7.4, h: 0.35, fontSize: 15, bold: true, color: C.text2 });
+    txt(s, "11 km", { x: 2.1, y: ly - 0.5, w: 1.0, h: 0.3, fontSize: 13, bold: true, align: "center", color: C.accent1 });
+    txt(s, "8 km", { x: 5.35, y: ly - 0.5, w: 1.0, h: 0.3, fontSize: 13, bold: true, align: "center", color: C.accent1 });
+    txt(s, "Uydukent Ekspres · ~19 km · hedef kapıdan kapıya 35 dk'nın altı", { x: L, y: TOP, w: 7.4, h: 0.35, fontSize: 15, bold: true, color: C.text2 });
     const ph = [
       ["İlk gün", "Mesaiye bağlı elektrikli ekspres otobüs; garantili koltuk, sabit sefer süresi"],
       ["3–6 yıl", "Otobüs öncelikli koridor (BRT); koridor raylı sistem standardında ayrılır"],
-      ["6–12 yıl", "Talep saatte tek yönde 4–5 bin yolcuya ulaşırsa raylı sistem"],
+      ["6–12 yıl", "Talep yeterse ekosistemde planlanan hafif raylı sisteme bağlantı"],
     ];
     const pw = 2.3;
     ph.forEach(([h, t], i) => {
@@ -553,12 +580,12 @@ async function build() {
       txt(s, h, { x: x + 0.2, y: y + 0.18, w: pw - 0.4, h: 0.35, fontSize: 17, bold: true, color: C.accent1 });
       txt(s, t, { x: x + 0.2, y: y + 0.6, w: pw - 0.4, h: 1.35, fontSize: 14 });
     });
-    txt(s, [{ text: "Ayrıca: ", options: { bold: true, color: C.text2 } }, { text: "Yenikent–TUSAŞ aktarması (Başkentray), Kahramankazan ring hattı, mahalle içi çağrılı servis, kademeli mesai." }],
+    txt(s, [{ text: "Ayrıca: ", options: { bold: true, color: C.text2 } }, { text: "Kahramankazan merkezine ring hat (8 km), Yenikent aktarması (Başkentray), mahalle içi çağrılı servis, kademeli mesai." }],
       { x: L, y: TOP + 4.2, w: 7.4, h: 0.6, fontSize: 14 });
     const tiles = [["13", "elektrikli otobüs, %15 yedekli"], ["~875", "sabah pikinde ekspres yolcusu"], ["~560", "otomobil, pikte koridordan çekilir"], ["374 t", "CO₂ yılda önlenir"]];
     tiles.forEach(([v, l], i) => stat(s, 8.35 + (i % 2) * 2.29, TOP + Math.floor(i / 2) * 2.45, 2.09, 2.25, v, l, { vsize: 32, lsize: 14 }));
     source(s, "Varsayımlar: hane başına 1,4 çalışan; en az yarısı savunma ve havacılık kümesinde (1.750 kişi); ekspres payı %50; otobüs başına ~85 yolcu.");
-    s.addNotes("Ulaşımda hedef, TUSAŞ'a kapıdan kapıya 35 dakikanın altında ve her gün aynı sürede varmak. İlk günden mesaiye bağlı elektrikli ekspres otobüsler çalışır: 13 otobüs, sabah pikinde yaklaşık 875 yolcu. Bu, Batıkent–Susuz–Eryaman koridorundan pikte yaklaşık 560 otomobil çeker. Tek başına koridoru çözmez, ama aynı model başka firmalara yayılınca etki büyür. Koridor baştan raylı sistem standardında ayrılır; raya geçiş talebe bağlı bir karar kapısı.");
+    s.addNotes("Ulaşımda hedef, HAB ve Kınık sanayi alanlarına kapıdan kapıya 35 dakikanın altında ve her gün aynı sürede varmak. Güzergâh Uydukent'ten Kınık'a 11, oradan HAB ve Kışla bölgesine 8 kilometre. İlk günden mesaiye bağlı elektrikli ekspres otobüsler çalışır: 13 otobüs, sabah pikinde yaklaşık 875 yolcu. Bu, Batıkent–Susuz–Eryaman koridorundan pikte yaklaşık 560 otomobil çeker. Tek başına koridoru çözmez, ama aynı model başka firmalara yayılınca etki büyür. Koridor baştan raylı sistem standardında ayrılır; ekosistemde planlanan hafif raylı sisteme bağlantı talebe bağlı bir karar kapısı.");
   }
   {
     const s = slideOf("ICERIK", "Yaşam alanı");
@@ -685,10 +712,10 @@ async function build() {
     const s = slideOf("ICERIK", "Uygulama");
     head(s, "UYGULAMA · ETAPLAMA VE KARAR KAPILARI", "Etaplama: hizmetler konutla aynı gün");
     const cols = [
-      ["Karar kapısı 1", "Arazinin bu amaçla değerlendirilmesi", "Hazırlık", "süre teyit edilecek", ["Parsel, yamaç statüsü, zemin ve imar teyitleri", "TUSAŞ çalışanlarına ön talep anketi", "Master plan ve projeler"]],
+      ["Karar kapısı 1", "Arazinin bu amaçla değerlendirilmesi", "Hazırlık", "süre teyit edilecek", ["Parsel, yamaç statüsü, zemin ve imar teyitleri", "Sanayi çalışanlarına ön talep anketi", "Master plan ve projeler"]],
       ["Karar kapısı 2", "Plan onayı ve talep sonucu", "Aşama 0", "ilk konut teslimiyle aynı gün", ["Ekspres, ring hat, ulaşım uygulaması", "ASM ve 112; modüler kreş ve sınıflar", "Meydan, pazar, gölün ilk etabı; fiber"]],
       ["Karar kapısı 3", "Yolcu talebi ve okul kaydı", "Aşama 1", "3–6 yıl", ["Otobüs öncelikli koridor (BRT)", "Okul kampüsleri tamamlanır", "Kültür merkezi, göl çevresi, spor"]],
-      ["Karar kapısı 4", "Saatte 4–5 bin yolcu", "Aşama 2", "6–12 yıl", ["Talep yeterse raylı sistem", "MYO ile ortak programlar", "Kalan konut etapları"]],
+      ["Karar kapısı 4", "Saatte 4–5 bin yolcu", "Aşama 2", "6–12 yıl", ["Hafif raylı sisteme bağlantı", "MYO ile ortak programlar", "Kalan konut etapları"]],
     ];
     const cw = (CW - 3 * 0.25) / 4;
     for (let i = 0; i < cols.length; i++) {
@@ -707,11 +734,11 @@ async function build() {
     txt(s, [{ text: "Etap ilkesi: ", options: { bold: true, color: C.accent1 } }, { text: "her konut etabı kendi okul, sağlık ve ulaşım hizmetiyle açılır; etap büyüklüğünü ön talep anketi belirler." }],
       { x: L + 0.25, y: TOP + 4.25, w: CW - 0.5, h: 0.6, fontSize: 14, valign: "middle" });
     source(s, "Süreler arazinin tahsisinden ve ilk konut tesliminden sayılır; hedef yıl belirlenince takvim yıllara çevrilecek.");
-    s.addNotes("Planlı kentlerden çıkan ana ders: hizmetler geç gelirse aileler taşınmıyor. Bu yüzden Aşama 0'da ulaşım, sağlık, kreş ve sosyal yaşamın ilk parçaları ilk konut teslimiyle aynı gün açılıyor; modüler yapılar bunu mümkün kılıyor. Her aşamanın önünde bir karar kapısı var: ilki bugün talep ettiğimiz karar, son kapı ise raylı sisteme ancak talep yeterse geçilmesi.");
+    s.addNotes("Planlı kentlerden çıkan ana ders: hizmetler geç gelirse aileler taşınmıyor. Bu yüzden Aşama 0'da ulaşım, sağlık, kreş ve sosyal yaşamın ilk parçaları ilk konut teslimiyle aynı gün açılıyor; modüler yapılar bunu mümkün kılıyor. Her aşamanın önünde bir karar kapısı var: ilki bugün talep ettiğimiz karar, son kapı ise ekosistemin hafif raylı sistemine ancak talep yeterse bağlanılması.");
   }
   {
     const s = slideOf("ICERIK", "Uygulama");
-    head(s, "UYGULAMA · REFERANSLAR", "Referanslarımız: TUSAŞ için yaptıklarımız");
+    head(s, "UYGULAMA · REFERANSLAR", "Referanslarımız: bölgede yaptıklarımız");
     const lw = 6.5;
     card(s, L, TOP, lw, 3.75);
     s.addImage({ path: A("ref_tai_ankara.jpg"), x: L, y: TOP, w: lw, h: lw / 2.512, objectName: "TAI Ankara Lodgings vaziyet perspektifi" });
@@ -719,12 +746,12 @@ async function build() {
     txt(s, [{ text: "TAI Ankara Lodgings  ", options: { bold: true, color: C.text2, fontSize: 18 } },
       { text: "Kahramankazan · 2022 · 400.000 m² · 1.500 konut", options: { bold: true, color: C.accent1, fontSize: 13 } }],
       { x: L + 0.25, y: ty, w: lw - 0.5, h: 0.38, valign: "middle" });
-    txt(s, "TUSAŞ için yeni konut mahallesi: yeşil bir omurga; okul, sağlık ocağı, kütüphane ve spor yürüme mesafesinde.",
+    txt(s, "Savunma sanayi çalışanları için yeni konut mahallesi: yeşil omurga; okul, sağlık ocağı, kütüphane ve spor yürüme mesafesinde.",
       { x: L + 0.25, y: ty + 0.42, w: lw - 0.5, h: 0.62, fontSize: 14 });
     card(s, L, TOP + 3.95, lw, 0.85);
     await iconCircle(s, "FaIndustry", L + 0.2, TOP + 4.08, 0.6, C.accent1);
     txt(s, [{ text: "TAI Kahramanmaraş Lodgings and Factory", options: { bold: true, color: C.text2, fontSize: 15, breakLine: true } },
-      { text: "TUSAŞ lojmanları ve fabrikası: çalışan konutu ile üretim tesisini birlikte ele aldık.", options: { fontSize: 13 } }],
+      { text: "Lojmanlar ve fabrika: çalışan konutu ile üretim tesisini birlikte ele aldık.", options: { fontSize: 13 } }],
       { x: L + 0.95, y: TOP + 4.03, w: lw - 1.15, h: 0.72, valign: "middle" });
     const rx = L + lw + 0.35, rw = W - L - rx, iw = (rw - 0.2) / 2, ih = iw / 1.926;
     s.addImage({ path: A("ref_kentsel_donusum.jpg"), x: rx, y: TOP, w: iw, h: ih, objectName: "Kahramankazan Kentsel Dönüşüm" });
@@ -745,7 +772,7 @@ async function build() {
     txt(s, [{ text: "Savunma sanayinde ayrıca: ", options: { bold: true, color: C.text2 } }, { text: "MKE Teknopark ve Genel Müdürlük Binası (2020), TR Motor ofis ve fabrika binaları (2023)." }],
       { x: rx, y: TOP + 4.28, w: rw, h: 0.55, fontSize: 13 });
     source(s, "Kaynak ve görseller: Belen & Partners kurumsal portföyü (Ağustos 2025). Roller portföydeki gibidir.");
-    s.addNotes("TUSAŞ için iki şehirde yerleşke ölçeğinde iş yaptık. Kahramankazan'da TAI Ankara Lodgings: 2022, 400 bin metrekare, 1.500 konut; okul, sağlık ocağı ve spor yürüme mesafesinde. Kahramanmaraş'ta TUSAŞ lojmanları ve fabrikası; alan ve yıl bilgisi eklenecek. Ayrıca Kahramankazan'ın kentsel dönüşümü, kent merkezi ve Serapınar aynı ilçede. Örencik bu planlama zincirinin yeni halkası.");
+    s.addNotes("Savunma sanayi için iki şehirde yerleşke ölçeğinde iş yaptık. Kahramankazan'da TAI Ankara Lodgings: 2022, 400 bin metrekare, 1.500 konut; okul, sağlık ocağı ve spor yürüme mesafesinde. Kahramanmaraş'ta lojmanlar ve fabrika; alan ve yıl bilgisi eklenecek. Ayrıca Kahramankazan'ın kentsel dönüşümü, kent merkezi ve Serapınar aynı ilçede. Uydukent bu planlama zincirinin yeni halkası.");
   }
   {
     const s = slideOf("ICERIK", "Uygulama");
@@ -755,9 +782,9 @@ async function build() {
       ["Yamaçların orman ya da ağaçlandırma statüsü", "Yapılaşabilir alan küçülür", "6831 statüsü sunumdan önce teyit; program yamaçları zaten koruyor"],
       ["Zemin: jips, marn, şişen kil", "Temel ve altyapı maliyeti artar", "Jeoteknik etüt; yapılar platolarda"],
       ["Kuraklık ve su", "Göl dolumu ve peyzaj sulaması", "Yağmur suyu ve arıtılmış atıksu; şebeke yalnızca acil"],
-      ["Uçuş ekseni gürültüsü", "Alıcı algısı, okul ve sağlık konforu", "Hassas yapılar eksenden uzakta; MSB ve SHGM gürültü verisi"],
+      ["Uçuş ve test gürültüsü", "Alıcı algısı, okul ve sağlık konforu", "Parsel koordinatıyla MSB ve SHGM verisi; gerekirse hassas yapılar uzakta"],
       ["Hizmetlerin geç gelmesi", "\"Yatak odası kent\" (Sejong, Songdo)", "Aşama 0: hizmetler konutla aynı gün; modüler yapılar"],
-      ["Talep belirsizliği", "Etap büyüklüğü şaşar", "TUSAŞ çalışanlarına ön talep anketi; etaplı gelişme"],
+      ["Talep belirsizliği", "Etap büyüklüğü şaşar", "Sanayi çalışanlarına ön talep anketi; etaplı gelişme"],
       ["Plan ve imar statüsü", "Takvim uzar", "İmar durumu yazısı ve üst ölçek plan kararı"],
       ["Maliyet artışı", "Yatırım tutarı yükselir", "Yüksek senaryo 15,9 milyar TL; yıllık güncelleme"],
     ];
@@ -772,21 +799,21 @@ async function build() {
     const cw = W - 4.55 - L - 0.45;
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: L, y: TOP, w: cw, h: 1.75, rectRadius: 0.08, fill: { color: C.background1, transparency: 88 }, line: { color: C.accent4, width: 1.5 }, objectName: "Karar kutusu" });
     txt(s, [{ text: "Talep", options: { bold: true, color: C.accent4, fontSize: 14, breakLine: true } },
-      { text: "Örencik'teki 511.000 m²'lik Hazine arazisinin savunma ve havacılık sanayi çalışanlarına yönelik bir yaşam alanı olarak değerlendirilmesi.", options: { fontSize: 19, fontFace: "Cambria", color: C.background1 } }],
+      { text: "Sarıayak'taki 511.000 m²'lik Hazine arazisinin savunma ve havacılık sanayi çalışanlarına yönelik bir yaşam alanı, Kahramankazan Uydukent, olarak değerlendirilmesi.", options: { fontSize: 18, fontFace: "Cambria", color: C.background1 } }],
       { x: L + 0.3, y: TOP + 0.18, w: cw - 0.6, h: 1.45, paraSpaceAfter: 4 });
     const steps = [
-      "Parsel bilgisi ve sayısal halihazır harita",
+      "Sarıayak parselinin bilgisi ve sayısal halihazır harita",
       "Yamaçların hukuki statüsü (6831) ve zemin etüdü",
       "İmar durumu; ASKİ, Başkent EDAŞ, Başkentgaz görüşleri",
-      "TUSAŞ çalışanlarına ön talep anketi",
-      "SSB, TUSAŞ, ABB, Kahramankazan Belediyesi, MEB ve Sağlık Bakanlığı ile çalışma grubu",
+      "Savunma sanayi çalışanlarına ön talep anketi",
+      "SSB, sanayi kuruluşları, ABB, Kahramankazan Belediyesi, MEB ve Sağlık Bakanlığı ile çalışma grubu",
     ];
     steps.forEach((t, i) => {
       const y = TOP + 2.0 + i * 0.63;
       s.addText(String(i + 1), { shape: pres.shapes.OVAL, x: L, y, w: 0.45, h: 0.45, fill: { color: C.accent4 }, color: C.text2, fontSize: 15, bold: true, align: "center", valign: "middle", margin: 0, objectName: "Adım numarası" });
       txt(s, t, { x: L + 0.65, y: y - 0.02, w: cw - 0.65, h: 0.5, fontSize: 16, color: C.background1, valign: "middle" });
     });
-    s.addNotes("Talebimiz tek cümle: Örencik'teki Hazine arazisinin savunma ve havacılık sanayi çalışanlarına yönelik bir yaşam alanı olarak değerlendirilmesi. Bu karar verilirse ilk işler şunlar: parsel bilgisi ve halihazır harita, yamaçların statüsü ve zemin etüdü, imar ve altyapı kapasite görüşleri, TUSAŞ çalışanlarına ön talep anketi ve kurumlar arası bir çalışma grubu. Teşekkür ederiz.");
+    s.addNotes("Talebimiz tek cümle: Sarıayak'taki Hazine arazisinin savunma ve havacılık sanayi çalışanlarına yönelik bir yaşam alanı olarak değerlendirilmesi. Bu karar verilirse ilk işler şunlar: parsel bilgisi ve halihazır harita, yamaçların statüsü ve zemin etüdü, imar ve altyapı kapasite görüşleri, savunma sanayi çalışanlarına ön talep anketi ve kurumlar arası bir çalışma grubu. Teşekkür ederiz.");
   }
 
   await pres.writeFile({ fileName: OUT });

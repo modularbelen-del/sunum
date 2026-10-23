@@ -1,7 +1,5 @@
 """Sunum görsellerini üretir: drone karelerini slayt oranlarına kırpar, bölgeleme şemasının başlığını keser,
-konum ve koridor diyagramını çizer. Çıktı: araclar/sunum/assets/ (git dışı) ve reports/gorseller/konum_koridor_semasi.png."""
-import subprocess
-import sys
+ekosistem görsellerini ve portföy görsellerini hazırlar. Çıktı: araclar/sunum/assets/ (git dışı)."""
 from pathlib import Path
 
 from PIL import Image
@@ -35,8 +33,9 @@ crop("drone_01_yarinti_ve_teras_agaclandirma.jpg", 4.58 / 2.3, "saha_sag1.jpg", 
 crop("drone_02_yamac_teraslari_ve_yollar.jpg", 4.58 / 2.3, "saha_sag2.jpg")
 crop("drone_04_plato_tarlalari.jpg", 4.55 / 7.5, "karar.jpg", fx=0.45)
 Image.open(G / "bolgeleme_semasi.png").crop((0, 58, 1500, 980)).save(OUT / "bolgeleme.png")
-subprocess.run([sys.executable, str(HERE / "harita.py"), str(OUT / "harita.png")], check=True)
-Image.open(OUT / "harita.png").save(G / "konum_koridor_semasi.png")
+# Proje ekibinin ekosistem görselleri (resim 23 ve 24; reports/gorseller altında kopyaları var)
+crop("ekosistem_2030.jpg", 16 / 9, "ekosistem.jpg")
+crop("ekosistem_mesafeler.jpg", 16 / 9, "mesafeler.jpg", width=2400)
 print("görseller hazır:", OUT)
 
 # Portföyden kendi projelerimizin görselleri (docs/portfoy; 74. sayfa bu dosyada yok)
