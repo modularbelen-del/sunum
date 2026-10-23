@@ -30,9 +30,9 @@ Arazi para ile alınmayacak; ne yapılacağına Saray karar verecek. Konutlar sa
 |---|---|
 | Sunum (67 slayt, PPTX ve PDF) | `reports/Kahramankazan Uydukent sunumu.pptx` ve `.pdf` |
 | Sunum betiği ve içerik dosyası | `araclar/sunum/build.js`, `gorseller.py`, `icerik.json` (notlardan 28 slayt, 39 dünya örneği) |
-| Kavramsal 3B görseller (5) | `reports/gorseller/kavram_*.jpg`; üretim `araclar/gorsel3b/` |
+| Kavramsal 3B görseller (5, Blender Cycles) | `reports/gorseller/kavram_*.jpg`; üretim `araclar/gorsel3b/blender_sahne.py` |
 | Bölgeleme şeması (Uydukent etiketli) | `reports/gorseller/bolgeleme_semasi.svg` ve `.png`, `araclar/schema.py` |
-| Rapor (md ve PDF) | `reports/Kahramankazan Uydukent fizibilitesi.md` ve `.pdf` |
+| Rapor (md ve PDF, 109 sayfa; notlar birleştirildi, Ek A–F, 40 dünya örneği, 14 görsel) | `reports/Kahramankazan Uydukent fizibilitesi.md` ve `.pdf` |
 | Ek araştırma notları PDF'i (başlıklar Sarıayak) | `reports/Kahramankazan Uydukent fizibilitesi - Ek araştırma notları.pdf` |
 | Proje becerileri | `.claude/skills/beyin-firtinasi`, `sunum-uret`, `rapor-pdf` |
 | Eski çerçevedeki PDF'ler | `reports/arsiv/` |
@@ -50,7 +50,7 @@ Arazi para ile alınmayacak; ne yapılacağına Saray karar verecek. Konutlar sa
 
 ## 4. Sıradaki adımlar
 
-1. **Rapor birleştirmesi:** Notların rapora işlenmesi, dünya örnekleri bölümünün genişletilmesi, ulaşım projeleri tablosu, resmi dil ve "Taslak" kaldırma işleri bir ajanla yürütülüyordu. Bitince `rapor-pdf` becerisindeki denetimler yapılır ve PDF yeniden üretilir.
+1. **Parsel sınırı:** Proje ekibinden Google Earth KML dosyası istendi. Gelince gerçek alan, mesafeler ve koordinat hesaplanacak; bölgeleme şeması ve 3B görseller gerçek sınıra oturtulacak.
 2. **Kamu faydası hesabı:** İlk hesap tek yön 25 km varsayıyor. Sarıayak için ~19 km ile yeniden hesaplanıp hesaplanmayacağı proje ekibine sorulacak.
 3. **Teyitler:** Brifin 7. bölümündeki teyitler (parsel, 6831 statüsü, zemin, imar, mesafe türü, ekosistem kaynağı vb.).
 

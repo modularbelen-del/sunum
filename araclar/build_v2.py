@@ -42,7 +42,8 @@ def figures(html: str) -> str:
         alt, src = m.group(1), m.group(2)
         if src.startswith("gorseller/"):
             src = IMG + "/" + src.split("/", 1)[1]
-        return f'<figure><img src="{src}" alt="{alt}"><figcaption>{alt}</figcaption></figure>'
+        # alt yazı Markdown'daki italik satırdan gelir; alt metin yalnızca erişilebilirlik içindir
+        return f'<figure><img src="{src}" alt="{alt}"></figure>'
     return re.sub(r'<p><img alt="([^"]*)" src="([^"]+)"\s*/?></p>', repl, html)
 
 
