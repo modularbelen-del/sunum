@@ -67,11 +67,14 @@ def build_report() -> str:
 
 def build_notes() -> str:
     files = sorted(NOTES.glob("*.md"))
-    parts = [f"""<section class="cover"><div class="kicker">Ek: araştırma notları</div><h1>Örencik yaşam alanı fizibilitesi</h1>
+    parts = [f"""<section class="cover"><div class="kicker">Ek: araştırma notları</div><h1>Kahramankazan Uydukent fizibilitesi</h1>
 <div class="sub">Raporun dayandığı {len(files)} araştırma ve hesap notu</div><div class="meta">Hazırlayan: Belen &amp; Partners<br>Tarih: Ekim 2026<br>Durum: iç kullanım</div></section>"""]
     parts.append('<section class="toc"><h2>Notlar</h2><ol>' + "".join(f"<li>{f.stem}</li>" for f in files) + "</ol></section>")
     for f in files:
-        html = figures(to_html(f.read_text(encoding="utf-8")))
+        md = f.read_text(encoding="utf-8")
+        # Proje Sarıayak'a taşındı: not başlıklarında eski mahalle adı kullanılmaz (gövde metni olduğu gibi kalır)
+        md = "\n".join(ln.replace("Örencik", "Sarıayak") if ln.lstrip().startswith("#") else ln for ln in md.split("\n"))
+        html = figures(to_html(md))
         parts.append(f'<section class="note"><h2>{f.stem}</h2>{html}</section>')
     return page("Araştırma notları", "".join(parts))
 
