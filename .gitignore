@@ -1,0 +1,8 @@
+# GitHub 100 MB sınırını aşan dosyalar (yerelde duruyor)
+Belen&Partners.pdf
+*.MP4
+*.mp4
+# Üretilen ara dosyalar
+__pycache__/
+araclar/area/
+araclar/*.html

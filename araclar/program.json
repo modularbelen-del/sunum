@@ -1,0 +1,257 @@
+[
+ {
+  "units": 2000,
+  "pop": 6000.0,
+  "rows": [
+   [
+    "Korunan yamaç ve yarıntılar (ağaçlandırma, yürüyüş)",
+    10.0,
+    "yeşil"
+   ],
+   [
+    "Yapay göl (su yüzeyi)",
+    2.5,
+    "yeşil"
+   ],
+   [
+    "Göl çevresi park",
+    3.5,
+    "yeşil"
+   ],
+   [
+    "Spor kompleksi",
+    1.0,
+    "yeşil"
+   ],
+   [
+    "Mahalle parkları ve çocuk bahçeleri",
+    1.2,
+    "yeşil"
+   ],
+   [
+    "Eğitim (anaokulu, ilkokul, ortaokul, lise)",
+    3.9,
+    "donatı"
+   ],
+   [
+    "Sağlık (ASM, 112, poliklinik)",
+    0.9,
+    "donatı"
+   ],
+   [
+    "Sosyal ve kültürel tesisler",
+    0.6,
+    "donatı"
+   ],
+   [
+    "İbadet",
+    0.3,
+    "donatı"
+   ],
+   [
+    "Teknik altyapı (trafo, su deposu, atık, operasyon merkezi)",
+    0.75,
+    "donatı"
+   ],
+   [
+    "Mahalle merkezi ve ticaret",
+    1.2,
+    "ticaret"
+   ],
+   [
+    "Yollar, otopark, servis ve aktarma istasyonu",
+    10.22,
+    "ulaşım"
+   ],
+   [
+    "Konut adaları (net)",
+    15.030000000000001,
+    "konut"
+   ]
+  ],
+  "net_res_ha": 15.030000000000001,
+  "gfa_m2": 240000.0,
+  "far_net": 1.596806387225549,
+  "units_per_net_ha": 133.0671989354624,
+  "units_per_gross_ha": 39.138943248532286,
+  "green_ha": 18.2,
+  "green_m2_pp": 30.333333333333332,
+  "ek2_green_ok": true,
+  "students": {
+   "Kreş ve anaokulu (3–5)": 270,
+   "İlkokul (6–9)": 360,
+   "Ortaokul (10–13)": 330,
+   "Lise (14–17)": 270
+  }
+ },
+ {
+  "units": 2500,
+  "pop": 7500.0,
+  "rows": [
+   [
+    "Korunan yamaç ve yarıntılar (ağaçlandırma, yürüyüş)",
+    10.0,
+    "yeşil"
+   ],
+   [
+    "Yapay göl (su yüzeyi)",
+    2.5,
+    "yeşil"
+   ],
+   [
+    "Göl çevresi park",
+    3.5,
+    "yeşil"
+   ],
+   [
+    "Spor kompleksi",
+    1.0,
+    "yeşil"
+   ],
+   [
+    "Mahalle parkları ve çocuk bahçeleri",
+    1.5,
+    "yeşil"
+   ],
+   [
+    "Eğitim (anaokulu, ilkokul, ortaokul, lise)",
+    4.875,
+    "donatı"
+   ],
+   [
+    "Sağlık (ASM, 112, poliklinik)",
+    1.125,
+    "donatı"
+   ],
+   [
+    "Sosyal ve kültürel tesisler",
+    0.75,
+    "donatı"
+   ],
+   [
+    "İbadet",
+    0.375,
+    "donatı"
+   ],
+   [
+    "Teknik altyapı (trafo, su deposu, atık, operasyon merkezi)",
+    0.9375,
+    "donatı"
+   ],
+   [
+    "Mahalle merkezi ve ticaret",
+    1.2,
+    "ticaret"
+   ],
+   [
+    "Yollar, otopark, servis ve aktarma istasyonu",
+    10.22,
+    "ulaşım"
+   ],
+   [
+    "Konut adaları (net)",
+    13.1175,
+    "konut"
+   ]
+  ],
+  "net_res_ha": 13.1175,
+  "gfa_m2": 300000.0,
+  "far_net": 2.287021154945683,
+  "units_per_net_ha": 190.5850962454736,
+  "units_per_gross_ha": 48.923679060665364,
+  "green_ha": 18.5,
+  "green_m2_pp": 24.666666666666668,
+  "ek2_green_ok": true,
+  "students": {
+   "Kreş ve anaokulu (3–5)": 338,
+   "İlkokul (6–9)": 450,
+   "Ortaokul (10–13)": 412,
+   "Lise (14–17)": 338
+  }
+ },
+ {
+  "units": 3000,
+  "pop": 9000.0,
+  "rows": [
+   [
+    "Korunan yamaç ve yarıntılar (ağaçlandırma, yürüyüş)",
+    10.0,
+    "yeşil"
+   ],
+   [
+    "Yapay göl (su yüzeyi)",
+    2.5,
+    "yeşil"
+   ],
+   [
+    "Göl çevresi park",
+    3.5,
+    "yeşil"
+   ],
+   [
+    "Spor kompleksi",
+    1.0,
+    "yeşil"
+   ],
+   [
+    "Mahalle parkları ve çocuk bahçeleri",
+    1.8,
+    "yeşil"
+   ],
+   [
+    "Eğitim (anaokulu, ilkokul, ortaokul, lise)",
+    5.85,
+    "donatı"
+   ],
+   [
+    "Sağlık (ASM, 112, poliklinik)",
+    1.35,
+    "donatı"
+   ],
+   [
+    "Sosyal ve kültürel tesisler",
+    0.9,
+    "donatı"
+   ],
+   [
+    "İbadet",
+    0.45,
+    "donatı"
+   ],
+   [
+    "Teknik altyapı (trafo, su deposu, atık, operasyon merkezi)",
+    1.125,
+    "donatı"
+   ],
+   [
+    "Mahalle merkezi ve ticaret",
+    1.2,
+    "ticaret"
+   ],
+   [
+    "Yollar, otopark, servis ve aktarma istasyonu",
+    10.22,
+    "ulaşım"
+   ],
+   [
+    "Konut adaları (net)",
+    11.204999999999998,
+    "konut"
+   ]
+  ],
+  "net_res_ha": 11.204999999999998,
+  "gfa_m2": 360000.0,
+  "far_net": 3.2128514056224904,
+  "units_per_net_ha": 267.73761713520753,
+  "units_per_gross_ha": 58.708414872798436,
+  "green_ha": 18.8,
+  "green_m2_pp": 20.88888888888889,
+  "ek2_green_ok": true,
+  "students": {
+   "Kreş ve anaokulu (3–5)": 405,
+   "İlkokul (6–9)": 540,
+   "Ortaokul (10–13)": 495,
+   "Lise (14–17)": 405
+  }
+ }
+]

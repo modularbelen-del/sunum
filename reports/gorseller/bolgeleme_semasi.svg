@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 980" width="1500" height="980">
+<defs><pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#7fa77a"/><line x1="0" y1="0" x2="0" y2="14" stroke="#5f8a5a" stroke-width="3"/></pattern></defs>
+<rect width="1500" height="980" fill="#fbfaf6"/>
+<g transform="translate(40,60)">
+<polygon points="100.9,152.0 426.1,85.0 779.9,113.7 990.4,218.9 1028.6,438.9 942.5,639.8 693.9,735.4 387.8,725.8 158.2,639.8 81.7,400.7" fill="url(#hatch)" stroke="#3d5a3d" stroke-width="3" />
+<polygon points="354.3,113.7 560.0,102.2 751.2,121.4 789.5,214.1 493.0,230.4 349.5,180.7" fill="#efc27a" stroke="#ffffff" stroke-width="2" />
+<polygon points="100.9,343.3 282.6,333.7 282.6,553.7 186.9,601.5 110.4,477.2" fill="#efc27a" stroke="#ffffff" stroke-width="2" />
+<polygon points="808.6,152.0 971.2,223.7 1009.5,419.8 885.1,458.0 880.4,314.6 799.1,305.0" fill="#efc27a" stroke="#ffffff" stroke-width="2" />
+<polygon points="684.3,553.7 856.5,591.9 813.4,687.6 693.9,708.6 684.3,620.6" fill="#efc27a" stroke="#ffffff" stroke-width="2" />
+<polygon points="167.8,185.5 340.0,185.5 340.0,324.1 167.8,324.1" fill="#5b8fc9" stroke="#ffffff" stroke-width="2" />
+<polygon points="292.2,338.5 416.5,338.5 416.5,515.4 292.2,515.4" fill="#5b8fc9" stroke="#ffffff" stroke-width="2" />
+<polygon points="765.6,410.2 764.2,425.2 759.9,439.9 752.9,454.1 743.2,467.6 731.0,480.1 716.6,491.4 700.1,501.3 681.9,509.6 662.3,516.3 641.5,521.1 620.1,524.0 598.2,525.0 576.4,524.0 554.9,521.1 534.2,516.3 514.5,509.6 496.3,501.3 479.9,491.4 465.4,480.1 453.3,467.6 443.6,454.1 436.5,439.9 432.3,425.2 430.8,410.2 432.3,395.2 436.5,380.5 443.6,366.3 453.3,352.8 465.4,340.3 479.9,329.1 496.3,319.2 514.5,310.8 534.2,304.2 554.9,299.4 576.4,296.4 598.2,295.4 620.1,296.4 641.5,299.4 662.3,304.2 681.9,310.8 700.1,319.2 716.6,329.1 731.0,340.3 743.2,352.8 752.9,366.3 759.9,380.5 764.2,395.2" fill="#a8d08d" stroke="#ffffff" stroke-width="2" />
+<polygon points="713.0,410.2 712.0,419.0 709.1,427.5 704.3,435.8 697.6,443.7 689.3,451.0 679.4,457.6 668.1,463.3 655.6,468.2 642.1,472.1 627.9,474.9 613.2,476.6 598.2,477.2 583.2,476.6 568.5,474.9 554.3,472.1 540.8,468.2 528.3,463.3 517.1,457.6 507.2,451.0 498.8,443.7 492.2,435.8 487.4,427.5 484.4,419.0 483.4,410.2 484.4,401.5 487.4,392.9 492.2,384.6 498.8,376.7 507.2,369.5 517.1,362.9 528.3,357.1 540.8,352.2 554.3,348.4 568.5,345.5 583.2,343.8 598.2,343.3 613.2,343.8 627.9,345.5 642.1,348.4 655.6,352.2 668.1,357.1 679.4,362.9 689.3,369.5 697.6,376.7 704.3,384.6 709.1,392.9 712.0,401.5" fill="#6fb3d9" stroke="#ffffff" stroke-width="2" />
+<polygon points="493.0,233.3 703.4,233.3 703.4,293.5 493.0,293.5" fill="#f29a4a" stroke="#ffffff" stroke-width="2" />
+<polygon points="705.3,223.7 791.4,223.7 791.4,305.0 705.3,305.0" fill="#a98bc9" stroke="#ffffff" stroke-width="2" />
+<polygon points="430.8,238.1 491.1,238.1 491.1,293.5 430.8,293.5" fill="#c9a27e" stroke="#ffffff" stroke-width="2" />
+<polygon points="784.7,324.1 878.5,324.1 878.5,438.9 784.7,438.9" fill="#e06666" stroke="#ffffff" stroke-width="2" />
+<polygon points="521.7,542.2 674.7,542.2 674.7,613.0 521.7,613.0" fill="#c9e4a6" stroke="#ffffff" stroke-width="2" />
+<polygon points="856.5,467.6 956.9,467.6 956.9,568.0 856.5,568.0" fill="#a0a0a0" stroke="#ffffff" stroke-width="2" />
+<path d="M273,678 L340,602" stroke="#ffffff" stroke-width="16" fill="none"/>
+<path d="M340,602 L467,502" stroke="#ffffff" stroke-width="14" fill="none"/>
+<polygon points="782.8,410.2 781.9,423.0 779.3,435.6 774.9,448.0 768.8,460.0 761.0,471.5 751.7,482.5 740.9,492.7 728.7,502.2 715.3,510.8 700.8,518.4 685.2,524.9 668.9,530.4 651.8,534.7 634.2,537.8 616.3,539.7 598.2,540.3 580.1,539.7 562.2,537.8 544.6,534.7 527.6,530.4 511.2,524.9 495.7,518.4 481.1,510.8 467.7,502.2 455.5,492.7 444.7,482.5 435.4,471.5 427.7,460.0 421.6,448.0 417.2,435.6 414.5,423.0 413.6,410.2 414.5,397.5 417.2,384.8 421.6,372.5 427.7,360.4 435.4,348.9 444.7,338.0 455.5,327.7 467.7,318.2 481.1,309.7 495.7,302.1 511.2,295.5 527.6,290.0 544.6,285.7 562.2,282.6 580.1,280.8 598.2,280.1 616.3,280.8 634.2,282.6 651.8,285.7 668.9,290.0 685.2,295.5 700.8,302.1 715.3,309.7 728.7,318.2 740.9,327.7 751.7,338.0 761.0,348.9 768.8,360.4 774.9,372.5 779.3,384.8 781.9,397.5" fill="none" stroke="#ffffff" stroke-width="10" />
+<circle cx="340" cy="602" r="20" fill="#2b2b2b"/>
+<text x="340.0" y="607.5" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">S</text>
+<text x="368.0" y="597.5" font-size="16" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Servis ve aktarma</text>
+<text x="368.0" y="616.5" font-size="16" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">istasyonu</text>
+<text x="283.0" y="730.0" font-size="16" font-weight="600" fill="#2b2b2b" text-anchor="end" font-family="Calibri, Segoe UI, Arial">↙ Kahramankazan merkezi ve TUSAŞ yönü</text>
+<text x="549.6" y="156.9" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Kuzey mahallesi</text>
+<text x="192.7" y="467.9" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Batı mahallesi</text>
+<text x="925.8" y="260.8" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Doğu mahallesi</text>
+<text x="746.5" y="638.5" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Güney mahallesi</text>
+<text x="253.9" y="251.8" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Özel okul</text>
+<text x="253.9" y="269.8" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">kampüsü</text>
+<text x="354.3" y="424.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Devlet okul</text>
+<text x="354.3" y="442.0" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">kampüsü</text>
+<text x="598.2" y="511.9" font-size="16" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Göl parkı</text>
+<text x="598.2" y="416.2" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Yapay göl</text>
+<text x="598.2" y="269.4" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Mahalle merkezi</text>
+<text x="748.4" y="262.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Kültür</text>
+<text x="748.4" y="278.8" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">merkezi</text>
+<text x="461.0" y="271.8" font-size="14" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Cami</text>
+<text x="831.6" y="379.1" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">ASM ve</text>
+<text x="831.6" y="395.9" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">112</text>
+<text x="598.2" y="583.6" font-size="17" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Spor kompleksi</text>
+<text x="906.7" y="515.4" font-size="14" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Teknik</text>
+<text x="906.7" y="532.2" font-size="14" font-weight="700" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">altyapı</text>
+<text x="980.8" y="678.0" font-size="16" font-weight="700" fill="#24452a" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">Korunan yamaç ve yarıntılar</text>
+</g>
+<rect x="70" y="930" width="100" height="10" fill="#2b2b2b"/><rect x="170" y="930" width="100" height="10" fill="#fff" stroke="#2b2b2b"/>
+<text x="70.0" y="960.0" font-size="14" font-weight="600" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">0</text><text x="170.0" y="960.0" font-size="14" font-weight="600" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">100</text><text x="270.0" y="960.0" font-size="14" font-weight="600" fill="#2b2b2b" text-anchor="middle" font-family="Calibri, Segoe UI, Arial">200 m</text>
+<text x="1215.0" y="80.0" font-size="20" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Gösterim</text>
+<rect x="1215" y="94" width="26" height="20" fill="#efc27a" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="110.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Konut adaları</text>
+<rect x="1215" y="128" width="26" height="20" fill="#5b8fc9" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="144.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Eğitim</text>
+<rect x="1215" y="162" width="26" height="20" fill="#e06666" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="178.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Sağlık</text>
+<rect x="1215" y="196" width="26" height="20" fill="#a98bc9" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="212.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Sosyal ve kültürel</text>
+<rect x="1215" y="230" width="26" height="20" fill="#f29a4a" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="246.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Mahalle merkezi ve ticaret</text>
+<rect x="1215" y="264" width="26" height="20" fill="#c9a27e" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="280.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">İbadet</text>
+<rect x="1215" y="298" width="26" height="20" fill="#6fb3d9" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="314.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Yapay göl</text>
+<rect x="1215" y="332" width="26" height="20" fill="#a8d08d" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="348.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Park</text>
+<rect x="1215" y="366" width="26" height="20" fill="#c9e4a6" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="382.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Spor</text>
+<rect x="1215" y="400" width="26" height="20" fill="#a0a0a0" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="416.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Teknik altyapı</text>
+<rect x="1215" y="434" width="26" height="20" fill="url(#hatch)" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="450.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Korunan yamaç, ağaçlandırma</text>
+<rect x="1215" y="472" width="26" height="10" fill="#ffffff" stroke="#666" stroke-width="0.8"/>
+<text x="1251.0" y="484.0" font-size="16" font-weight="500" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Ana yol ve servis hattı</text>
+<text x="1215.0" y="534.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Şematiktir. Ölçeklidir, ancak parsel</text>
+<text x="1215.0" y="558.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">sınırı ve yönü temsilidir; kesin</text>
+<text x="1215.0" y="582.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">sınır ve topoğrafik harita gelince</text>
+<text x="1215.0" y="606.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">yeniden çizilecektir.</text>
+<text x="1215.0" y="630.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial"></text>
+<text x="1215.0" y="654.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Önerilen senaryo: 2.500 konut,</text>
+<text x="1215.0" y="678.0" font-size="15" font-weight="500" fill="#444" text-anchor="start" font-family="Calibri, Segoe UI, Arial">yaklaşık 7.500 kişi, 51,1 ha.</text>
+<text x="40.0" y="36.0" font-size="26" font-weight="700" fill="#2b2b2b" text-anchor="start" font-family="Calibri, Segoe UI, Arial">Örencik yaşam alanı: bölgeleme şeması (önerilen senaryo)</text>
+</svg>

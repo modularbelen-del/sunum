@@ -1,0 +1,113 @@
+# Hazine Arazisi Edinim Yolu, Planlama/İzinler ve 2026 Maliyet Kıyasları (Örencik, Kahramankazan, Ankara; 511.000 m²)
+
+Not: Araştırma tarihi 23.10.2026. Web arama özetleri (snippet) ile desteklenen maddeler "[snippet]" ile işaretlidir. Tam metni okunan kaynaklar: Hazine Taşınmazlarının İdaresi Hakkında Yönetmelik (konsolide PDF, 9.8.2026 değişikliği dahil), Değer Artış Payı Yönetmeliği özeti, 2026 Yapı Yaklaşık Birim Maliyetleri tebliği tablosu, Tarım Arazileri Yönetmeliği (ilk ~100.000 karakter).
+
+## 1. Hazine arazisinin konut için kullanımı: hukuki yollar (satış, irtifak/üst hakkı, TOKİ/Emlak Konut, teşvik)
+
+### Takeaway
+Açık piyasada satılacak konut için en temiz yol, Milli Emlak'ın 2886 kapsamındaki satış ihalesiyle arsanın mülkiyetinin alınmasıdır (kapalı/açık teklif; önce Bakanlık satış izni gerekir). İrtifak hakkı en çok 49 yıl; hak sahibine taşınmaz yükü ve rehni tesis edilemez, bu da proje finansmanını ve bağımsız bölüm satışını zorlaştırır. Alternatif, parselin TOKİ/Emlak Konut'a devriyle "arsa satışı karşılığı gelir paylaşımı" ihalesine girmek veya Emlak Konut'un kendi ihalesini kazanmaktır. Hazine parselinin Bakanlıkça yatırımcıya "ön izin" ile plan yaptırma imkanı da vardır, ama bu ön izin irtifak/kullanma izni ihalesinin kazananı içindir.
+
+### Cited Findings
+- Yönetmelik kapsamı: Hazinenin özel mülkiyetindeki taşınmazların satışı, trampası, arsa/kat karşılığı inşaat yaptırılması, kiraya verilmesi, ön izin verilmesi ve irtifak hakkı kurulması. Dayanak: 2886 s. Devlet İhale Kanunu md. 74 ve 4706 s. Kanun (ve 1 s. CBK md. 101). Bakanlık: Çevre, Şehircilik ve İklim Değişikliği Bakanlığı (RG 5.10.2022-31974 ile değişik). — [Yönetmelik, konsolide PDF (alomaliye, 9.8.2026 sürümü)](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf) (md. 1, 3, 4; mevzuat.gov.tr'deki resmi metinle teyit edilmeli)
+- Satış yöntemi (md. 58): tahmin edilen bedel her yıl merkezi yönetim bütçe kanunuyla belirlenen parasal sınıra kadar ise açık teklif, üstünde ise kapalı teklif usulü. Satılamayan taşınmaz aynı usulle yeniden ihale edilir, pazarlığa bırakılmaz. Taşınmazlar satışa çıkarılmadan önce Bakanlıktan izin alınır (md. 60). Özel mevzuat gereği satılamayan taşınmazlar satılamaz (md. 59). Müşteri tapu tescili için şartnamedeki süreye uymak zorundadır (md. 61). Satış bedeli taksitle ödenebilir (md. 62). — [Yönetmelik PDF](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf)
+- Tahmin edilen bedel, bedel tespit komisyonunca rayiç bedel esas alınarak belirlenir (md. 12). — [Yönetmelik PDF](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf)
+- Arsa karşılığı inşaat: Hazine taşınmazı üzerinde yapılacak yapı bedeline karşılık başka bir Hazine taşınmazının verilmesi. Kat karşılığı inşaat: yapılacak yapının Hazineye bırakılacak kısmı/bağımsız bölümleri bedeline karşılık Hazine taşınmazından belirli arsa payı verilmesi (md. 4). Trampa, arsa/kat karşılığı inşaat ihaleleri bedel ve miktarı ne olursa olsun 2886 md. 51(g) uyarınca pazarlık usulüyle yapılır (md. 64); Bakanlıktan önceden izin gerekir (md. 65). — [Yönetmelik PDF](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf)
+- İrtifak hakkı (md. 76): Hazine taşınmazı üzerinde TMK'ya göre en fazla 49 yıla kadar (oturma hakkı hariç) irtifak hakkı kurulabilir; bu taşınmazlar üzerinde taşınmaz yükü ve taşınmaz rehni tesis edilemez. Teslimden sonra 6 ay içinde ruhsat alınıp inşaata başlanır, inşaat 2 yılda biter; talep halinde ruhsat süresi dahil toplam 5 yıla uzatılabilir. İrtifak/kullanma izni ihalesi sonucunda yatırımcıya 1 yıl "ön izin" verilir (plan yaptırma/değiştirme, uygulama projeleri, tescil-ifraz-tevhit işlemleri için); toplam süre 4 yılı geçemez (md. 75). Ön izin döneminde süre dondurulmaz, ön izin bedeli ihale bedelinin yıllara göre %20/%20/%30/%40'ıdır (md. 12/4). — [Yönetmelik PDF](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf)
+- Hak devri: irtifak hakkı devri Bakanlık izniyle mümkündür (bağımsız ve sürekli nitelikli irtifaklar hariç); şirket hisse devri bazı durumlarda devir sayılır (md. 53). — [Yönetmelik PDF](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf)
+- 4706 Ek md. 3 kapsamında irtifak hakkı tesis edilen taşınmazlarda: ön izinden itibaren 5 yıl içinde taahhüt edilen yatırım ve istihdam tamamlanırsa, hak sahibine doğrudan satış mümkün (satış bedeli, rayiç bedelin YİÜFE oranında artırılmasıyla belirlenir). Bu bir yatırım teşvik/doğrudan satış yoludur; konutu kapsayıp kapsamadığı bu kaynaktan anlaşılamıyor. — [Yönetmelik PDF](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf) (md. 12/2-b)
+- Yönetmelik değişiklik tarihçesi (son üç): RG 14.6.2025-32926 (kira/irtifak süre dondurma, tarım-sanayi enerji hükümleri, korunaklı deniz alanları), RG 18.10.2025-33051 (md. 74/B: millet bahçelerinde ticari ünitelerin kiralanması), RG 9.8.2026-33335 (md. 81/5: kıyı/sahil şeritlerindeki ticari ünitelerin protokolle kiralanması). Bu üç değişikliğin hiçbiri konut satışı/irtifak rejimini doğrudan değiştirmiyor. — [Yönetmelik PDF, değişiklik tablosu](https://www.alomaliye.com/wp-content/uploads/2007/06/hazine-tasinma-zlarinin-09-08-2026.pdf)
+- 2025'te yaklaşık 86 milyon m² Hazine taşınmazı TOKİ'ye devredildi (konut arzı); ayrıca proje bazlı yatırımlara 810 bin m² arazi tahsisi haberi var. — [snippet, Ekonomi Gazetesi](https://www.ekonomigazetesi.com/ekonomi/proje-bazli-yatirimlara-810-bin-m2-arazi-tahsis-edildi-63213) (86 milyon m² rakamı arama özetinden, haber metni okunmadı)
+- Emlak Konut GYO "arsa satışı karşılığı gelir paylaşımı" örnekleri: Ankara Gölbaşı Taşpınar (TOKİ protokolü), 6.4.2026 ihale, toplam satış geliri teklifi 23 milyar TL, Emlak Konut payı %35 (~8,05 milyar TL), sözleşme 21.7.2026, yüklenici Pasifik İnşaat/GYO. İstanbul Ataşehir (Ocak 2026 yeniden ihale): 30,02 milyar TL, Emlak Konut payı %45; arsa sahipleri/Emlak Konut protokol dağılımı 80/20. Ankara Macunköy (Aselsan ile) ihalesi 24.6.2026'da ön yeterlik aşamasında, oran bulunamadı. — [snippet: CNBC-e, Ataşehir](https://www.cnbce.com/borsa/emlak-konuttan-atasehir-ihalesinde-30-milyar-tlyi-asan-satis-geliri-h23674); [snippet: hisse.net, Taşpınar](https://www.hisse.net/haber/emlak-konut-23-milyar-tl-lik-projede-imzayi-atti-85573)
+- Hazine arazisi üzerinde Örencik/Kahramankazan'a özgü bir proje veya Hazine ihalesi haberi bulunamadı (arama sonuçları yalnızca ilçenin TUSAŞ kaynaklı konut talebini ve Örencik Göleti sulama projesini anlatıyor). — [snippet, Yeni Ankara](https://www.yeniankara.com.tr/kahramankazan/ankarada-mustakil-yasamin-yeni-rotasi-kahramankazan-incek-ve-cayyoluna-rakip-oldu-178225)
+
+### Inferences
+- Rota karşılaştırması (yorum; hukuki mütalaa değildir):
+  - Satış ihalesi: Artı: mülkiyet tam, kat irtifakı/ipotek/bağımsız bölüm satışı sorunsuz, banka kredisi uygun. Eksi: 511.000 m² için bedel peşin/taksit yükü büyük; rekabetçi ihalede fiyat artabilir; plan yoksa ihale öncesi planın kim tarafından yapılacağı belirsiz; Bakanlık satış izni ve ihale takvimi Bakanlığın inisiyatifinde.
+  - İrtifak/üst hakkı (en çok 49 yıl): Artı: başlangıç sermaye yükü düşük, ön izinle plan yürütülebilir. Eksi: taşınmaz rehni tesis edilemez, devir kısıtlı, süre sınırlı; son alıcıya konut mülkiyeti satışı ile 49 yıllık hak arasındaki uyum yönetmelikte açık değil. Bu rota açık piyasada tapulu konut satışı için pratik görünmüyor (kaynak doğrulaması yok).
+  - TOKİ/Emlak Konut üzerinden gelir paylaşımı: Artı: arazi sorunu devlet kuruluşunda, imar yetkisi güçlü, güvenilirlik. Eksi: gelir payı %35-45 mertebesinde (Ankara Taşpınar %35, İstanbul %45); proje tasarım/pazarlama kontrolü paylaşılır; devir için Hazine-TOKİ/EKGYO takdiri gerekir.
+- Mevcut Hazine yönetmeliği değişiklikleri (2025-2026) konut satışı için yeni bir kolaylık getirmemiş görünüyor; en yeni sınırlı değişiklikler kıyı/millet bahçesi/tarım-enerji odaklı.
+
+### Gaps
+- Parselin güncel imar durumu, tapudaki nitelik (tarla/kuru marjinal vb.), Hazine satış programında olup olmadığı bu çalışmada tespit edilemedi.
+- Irtifak/üst hakkı rejiminde bağımsız bölümlerin satışının serbest olup olmadığı için açık kaynak bulunamadı. 2985/4706'daki TOKİ devir yetkileri ve Emlak Konut'un yeni ihale şartları (md. 4706 md. 2, 2985 md. 4-6) ilgili mevzuat metinlerinden teyit edilmedi.
+- Milli Emlak Genel Tebliği, güncel satış parasal sınırı (açık/kapalı teklif sınırı, 2026 Bütçe Kanunu) okunmadı.
+
+## 2. Planlama yolu, tarım arazisi dönüşümü, değer artış payı
+
+### Takeaway
+Parsel tarım arazisi ise (5403) kritik eşik arazi sınıfıdır: mutlak/özel ürün/dikili/sulu tarım arazisi ile büyük ova alanlarında konut amaçlı dönüşüm esasen mümkün değildir; yalnızca kuru marjinal tarım arazisi için valilik/Bakanlık yolu pratiktir. 4.4.2026'da yürürlüğe giren yeni Tarım Arazilerinin Korunması Yönetmeliği başvuruları TAD Portal'a taşıdı. Değer artış payı (%90) 22.11.2025 yönetmeliğiyle düzenlendi, ancak kamu arazisi/kamu yatırımı istisnaları var ve Hazine'den satın alınan arazide plan değişikliği malik talebi olursa uygulama alanı doğabilir; bu nokta hukuki teyit gerektirir.
+
+### Cited Findings
+- Yeni "Tarım Arazilerinin Korunması ve Kullanılması Hakkında Yönetmelik" RG 4.4.2026, sayı 33214. Hazine ve tescil harici alanlarda 4342 görüşü alınır, saha incelemesiyle sınıf belirlenir (md. 6/5). Başvuru belediyeye (belediye sınırı içi) veya il özel idaresine yapılır ve TAD Portal ile il müdürlüğüne iletilir (md. 5). — [Alomaliye, RG 4.4.2026](https://www.alomaliye.com/2026/04/04/tarim-arazilerinin-korunmasi-ve-kullanilmasi-hakkinda-yonetmelik/) (ilk 100.000 karakter okundu; toprak koruma katkı payı ve hobi bahçesi hükümleri okunamayan kısımda)
+- Mutlak, özel ürün, dikili, sulu tarım arazileri (büyük ova dışı): tarım dışı kullanım yalnızca sayılan kategorilerde (savunma, afet konutu, enerji/maden kamu yararı, altyapı vb.); genel konut listede yok; alternatif alan yoksa ve Kurul uygun görürse (md. 14/1). Büyük ova koruma alanında amaç dışı kullanım yok (md. 15/1). Kuru marjinalde bireysel talepler Kurul'a gitmeden valilikçe sonuçlandırılabilir (md. 14/3, 12/ğ). 2 ha altı mutlak/özel ürün, 0,5 ha altı dikili arazi marjinal sayılabilir (md. 6/4). Tarımsal bütünlüğü bozuyorsa talep reddedilir (md. 7/1). Alternatif alan araştırması (planlı alanlar, köy yerleşikleri) zorunlu (md. 9/3). Onay, plan/ruhsat 2 yıl içinde alınmazsa düşer (md. 16/2). İtiraz süresi 1 yıl (md. 18). Toprak Koruma Kurulu vali başkanlığında en az 9 üye, 6 olumlu oy (md. 10, 12). — [Alomaliye, RG 4.4.2026](https://www.alomaliye.com/2026/04/04/tarim-arazilerinin-korunmasi-ve-kullanilmasi-hakkinda-yonetmelik/)
+- Aynı gün (4.4.2026) "Arazi Kullanım Planlaması Uygulama Yönetmeliği" de yayımlandı. — [Alomaliye](https://www.alomaliye.com/2026/04/04/arazi-kullanim-planlamasi-uygulama-yonetmeligi/) [snippet]
+- Yeni düzenlemelerle tarım arazilerinde "hobi bahçesi" parselasyonu ve yapı yasaklandı (Nisan 2026). — [snippet, Yeni Ankara](https://www.yeniankara.com.tr/kahramankazan/ankarada-mustakil-yasamin-yeni-rotasi-kahramankazan-incek-ve-cayyoluna-rakip-oldu-178225)
+- Değer artış payı: 7534 s. Kanun (5.12.2024) ile 3194 Ek md. 8 değişti. "İmar Planı Değişikliğine Dair Değer Artış Payı Uygulama Yönetmeliği" RG 22.11.2025, sayı 33085. Pay, plan değişikliği öncesi/sonrası değer artışının %90'ı (md. 4). Malikin talebiyle yapılan uygulama imar planı değişikliklerini kapsar (md. 5-6). Muaf: 6306 alanları, kamu yatırımları ve kamu arazisi (md. 7/2; Hazine veya TOKİ adıyla anılmıyor), resen idare değişiklikleri (md. 7/7), imar hakkı aktarımı (md. 7/8). Peşin ödemede %10 indirim, en fazla 4 taksit (md. 13); ödenmeden satış/devir yapılamaz, yapı ruhsatı verilmez, tapuya şerh konur (md. 13, 15). Dağıtım: büyükşehirlerde %25 büyükşehir, %25 ilçe, %25 6306 fonu, %25 genel bütçe; Bakanlık onaylı planlarda %75 6306 fonu (md. 14). Değerleme SPK yetkili kuruluşlarca yapılır. — [Alomaliye, RG 22.11.2025](https://www.alomaliye.com/2025/11/22/imar-plani-degisikligine-dair-deger-artis-payi-uygulama-yonetmeligi/); [Hakediş.org](https://www.hakedis.org/imar-plani-degisikligine-dair-deger-artis-payi-yonetmeligi-yayimlandi/) [snippet]
+- Plan gerekçe raporu örneği (Bakanlık MPGM, 17.6.2026) mevcut: Bakanlık onaylı plan değişiklikleri yayımlanıyor. — [csb.gov.tr](https://webdosya.csb.gov.tr/v2/mpgm/2026/06/PL_DEG_GEREKCE_RAPORU_17062026-20260628132301.pdf) [snippet, içerik okunmadı]
+
+### Inferences
+- Plan yetkisi (genel bilgi, bu çalışmada kaynakla doğrulanmadı): 3194 sayılı İmar Kanunu md. 8 gereği Büyükşehir sınırlarında nazım imar planı Ankara Büyükşehir Belediyesi onayıyla, uygulama imar planı ilçe (Kahramankazan) belediyesi onayıyla yürür; Bakanlık, TOKİ ve Emlak Konut'un 2985/644 sayılı düzenlemelerinden doğan doğrudan plan yetkisi (özellikle devredilen Hazine/TOKİ arazilerinde) süreci kısaltır; Çevre Düzeni Planı uyumu zorunlu. Bu yetki zinciri bir sonraki adımda avukat/şehir plancı ile teyit edilmelidir.
+- Süreçler için bu çalışmada güvenilir "tipik süre" kaynağı bulunamadı. Bilinen yasal süreler: Hazine ön izni 1+1+2 yıl (toplam en çok 4 yıl); 5403 onayı plan/ruhsat için 2 yıl geçerli; DAP tebliği ve ödeme ay mertebesinde. Nazım+uygulama planı ve parselasyon için 12-24 ay planlama varsayımı yorum olarak makul ama kaynaksızdır.
+- DAP: Hazine'den ihaleyle alınan arazide alıcı yeni maliktir; plan değişikliğini kendisi talep ederse %90 DAP doğabilir (özellikle konut yoğunluğu/fonksiyon artışı). Plan Hazine/Bakanlık/TOKİ eliyle yapılır veya kamu planı (resen) ise muafiyet gündeme gelir. Bu, rota seçimini (TOKİ üzerinden plan alınması) ekonomik olarak değerli kılar. Hukuki teyit şart.
+
+### Gaps
+- Kahramankazan Örencik'in mevcut nazım/uygulama planı ve Ankara 1/100.000 Çevre Düzeni Planı durumu, parselin tarım sınıfı (TAD) bulunamadı.
+- Toprak koruma katkı payı bedeli (okunamayan kısım) ve plan onay süreleri için kaynak yok.
+- Yönetmeliğin 9.8.2026 sonrası mevzuat.gov.tr resmi metni ile karşılaştırma yapılmadı.
+
+## 3. 2026 yapı maliyeti kıyasları
+
+### Takeaway
+Bakanlığın 2026 yaklaşık birim maliyeti (KDV hariç, %15 genel gider ve %10 müteahhit kârı dahil): III-B 21.050, IV-A 26.450, IV-B 33.900, IV-C 40.500, V-A 42.350 TL/m². Bunlar mimarlık/mühendislik hizmet bedeli ve ihale yaklaşık maliyeti içindir; piyasa gerçekleşen maliyetinden farklı olabilir. TÜİK İnşaat Maliyet Endeksi 2026'da yıllık %25-30 artış gösterdi (Ağustos 2026: %29,59). Ankara'ya özgü gerçekleşen m² maliyeti için güvenilir kaynak bulunamadı.
+
+### Cited Findings
+- "2026 Yılı Yapı Yaklaşık Birim Maliyetleri Hakkında Tebliğ": RG 3.2.2026, sayı 33157; 1.1.2026'dan geçerli; KDV hariç, %15 genel gider + %10 yüklenici kârı dahil. III-A 19.800; III-B 21.050 (3 kat üstü, yükseklik 21,50 m altı konut); IV-A 26.450 (yükseklik 30,50-51,50 m konut); IV-B 33.900 (51,50 m üstü konut); IV-C 40.500; V-A 42.350; V-B 43.850 TL/m². — [Hukukihaber, tebliğ metni](https://www.hukukihaber.net/mimarlik-ve-muhendislik-hizmet-bedellerinin-hesabinda-kullanilacak-2026-yili-yapi-yaklasik-birim-maliyetleri-hakkinda-teblig); [Alomaliye](https://www.alomaliye.com/2026/02/03/2026-yili-mimarlik-ve-muhendislik-hizmet-bedellerinin-hesabinda-kullanilacak-yapi-yaklasik-birim-maliyetleri/); [turmob RG PDF 32799 (2025 sürümü, karşılaştırma)](https://www.turmob.org.tr/arsiv/mbs/resmigazete/32799-rg.pdf)
+  - Not: Konut için orta yükseklikteki (3 katı aşan, <21,50 m) siteler III-B'ye, 21,50-30,50 m arası yüksekliğin sınıfı özetlerde ayrıca görünmedi (III-B ile IV-A arasında); tebliğ tam metninden sınıf teyidi yapılmalı.
+- TÜİK İnşaat Maliyet Endeksi 2026 yıllık değişim: Ocak %25,38; Mart %27,24 (işçilik %30,07, malzeme %25,61); Nisan %28,58; Mayıs %29,84; Haziran %28,66; Temmuz %28,33; Ağustos %29,59 (aylık %2,04; malzeme %28,72, işçilik %31,20; bina inşaatı %28,94). — [snippet: Alomaliye 9.10.2026](https://www.alomaliye.com/2026/10/09/insaat-maliyetleri-yuzde-29-59-artti/); [Ekonomist](https://www.ekonomist.com.tr/ekonomi-haberleri/insaat-maliyetleri-yuzde-27-yi-gecti-74388) ; [Forbes TR (Temmuz)](https://www.forbes.com.tr/ekonomi/insaat-maliyet-endeksi-temmuz-ayinda-yuzde-28-33-artti)
+- Emlak vergisi için normal inşaat maliyet bedelleri (Hazine ve Maliye/Çevre ortak tebliği, 6.8.2026 haberi, "gelecek yıl" ifadesiyle, muhtemelen 2027 için): mesken lüks 12.642,67-27.712,26; 1. sınıf 5.335,40-18.532,07; 2. sınıf 3.758,56-12.555,79; 3. sınıf 1.269,61-8.551,49 TL/m². Vergi matrahıdır, piyasa maliyeti değil. — [TRT Haber](https://www.trthaber.com/haber/ekonomi/konutlarda-metrekare-maliyet-bedelleri-guncellendi-953221.html)
+- Ankara ortalama konut birim fiyatı: 4. çeyrek 2025'te 41.281 TL/m² (TCMB, yıllık +%38,69); Mart 2026'da 36.561 TL/m² (farklı metodoloji, birbirleriyle çelişen seri). Bunlar satış fiyatıdır; diğer araştırmacıların kapsamı. — [snippet, Terra Real Estate](https://terrarealestate.com/news/turkish-real-estate-market-analysis-march-2026); [snippet, Global Property Guide](https://www.globalpropertyguide.com/europe/turkey)
+- Hazır beton fiyatı üç yılda 30 dolardan 85 dolara çıktı (m³). — [snippet, santiye.com.tr](https://santiye.com.tr/3-yil-once-30-dolar-olan-hazir-betonun-metrekupu-bugun-85-dolar)
+
+### Inferences
+- 2026 bakanlık birim maliyetleri (TL/m²) ile bir 10-25 katlı toplu konut projesinin brüt inşaat maliyeti için kullanılabilir üst/orta bant: 21-34 bin TL/m² (KDV hariç). Gerçekleşen piyasa maliyeti bu banttan düşük veya yüksek olabilir; kaynaklı piyasa verisi yoktur.
+- Endeks yıllık ~%29 artıyor: 2-3 yıllık bir proje takviminde maliyet güncellemesi (eskalasyon) bütçede zorunlu; sabit fiyatlı sözleşme riski müteahhide aittir.
+
+### Gaps
+- İNTES, müteahhit dernekleri veya Ankara'ya özgü 2025-2026 gerçekleşen "kaba/tam inşaat TL/m²" rakamı bulunamadı.
+- TÜİK İnşaat Maliyet Endeksi'nin Ankara kırılımı (il bazlı seri yok) bulunamadı; bültenin birincil kaynağı (data.tuik.gov.tr) okunmadı.
+- 2026 bakanlık tebliğinin IV-A/IV-B için "yükseklik" sınıflaması tam metinden doğrulanmalı; 1. sınıf işyeri/ticaret birimleri için ayrıca bakılmadı.
+
+## 4. Altyapı maliyeti kıyasları (yol, su, kanalizasyon, elektrik, fiber)
+
+### Takeaway
+Hektar veya konut başına güncel bir TL referansı kaynaklı olarak bulunamadı. Mevcut tek sayısal yaklaşım 1996 fiyatlı akademik bir çalışmadır ve kullanılamaz.
+
+### Cited Findings
+- Akademik bir Balıkesir çalışması, konut başına altyapı uzunluğunun ve ulaşım alanının azaltılmasıyla konut başına altyapı maliyetinin düşürülebileceğini belirtiyor; birim fiyatlar 1996'dır. — [snippet, Balıkesir Üniv.](https://acikerisim.balikesir.edu.tr/items/0bed2b61-c9b7-4aa1-88e1-6d669a727302/full)
+- TOKİ modeli konutların inşaat maliyeti yaklaşık 15 bin TL/m² (tarihsiz, altyapı kırılımı yok). — [snippet, Hürriyet](https://www.hurriyet.com.tr/haberleri/toki-arsa-bedeli)
+
+### Inferences
+- Altyapı bedeli, 511.000 m²'lik parselde bölge altyapı kurumlarının (ASKİ, Başkent EDAŞ, BOTAŞ, Türk Telekom) bağlantı katkı payları ile sitenin iç altyapısından oluşur. Kaynak yok; fizibilitede yerel firmalardan teklif ve ASKİ/EDAŞ katılım payı tarifeleri alınmalıdır.
+- Altyapının toplam proje maliyetindeki payı için kaynak bulunamadı; model içinde duyarlılık analizi (örn. %8-15 aralığı) yalnızca varsayım olarak, kaynaksız ve etiketli kullanılmalıdır.
+
+### Gaps
+- Yol/su/kanal/elektrik/fiber için ha veya konut başına TL ve toplam maliyet içindeki pay bulunamadı. Çevre Şehircilik "birim fiyat" cetvelleri, İller Bankası/ASKİ birim fiyatları ve ASKİ/Başkent EDAŞ bağlantı tarifeleri ayrıca taranmalıdır.
+
+## 5. Geliştirici ekonomisi, KDV, tapu harcı
+
+### Takeaway
+Konut KDV'si 1 Nisan 2022 sonrası ruhsatlı projelerde net alan 150 m²'ye kadar %10, aşan kısım için %20 (7346 s. CBK ile 10.7.2023'ten beri, snippet). Tapu harcı alıcıdan %2 ve satıcıdan %2'dir (toplam %4), 2026'da gerçek satış bedeli üzerinden. Arsa payı için kaynaklı sayı yok; büyükşehirlerde %50'yi aşabildiği yönünde bir sektör yorumu var. Hedef brüt marj için güvenilir kaynak bulunamadı.
+
+### Cited Findings
+- KDV: 1.4.2022 sonrası yapı ruhsatlı konutlarda net alan 150 m² altı %10; 150 m² üstü konutlarda 150 m²'ye kadar kısım %10, aşan kısım %20. 7346 s. CBK ile %8/%18 oranları %10/%20'ye yükseltildi (yürürlük 10.7.2023). 1.4.2022 öncesi ruhsatlarda büyükşehirde arsa vergi değerine göre %1/%10/%20. 6306 kapsamında 150 m² altı %1. 2026 için resmi GİB tablosu bulunamadı. — [snippet, TÜRMOB e-kütüphane](https://turmob.org.tr/ekutuphane/Read/1f9fde69-41e7-45e4-8863-7bd532a521a8); [snippet, Hukukçu Arayışı](https://hukukcularevi.com/konut-teslimlerinde-kdv-orani-indirimli-oran-iadesi-net-alan-kdvk-28-29/)
+  - Çelişen/güvenilmez içerik: Emlak Kulisi "150 m² üstünde %18'den %8'e" iddiası eski haber gibi görünüyor ve doğrulanmadı. — [snippet, Emlak Kulisi](https://emlakkulisi.com/guncel/konutta-kdv-uygusamasi/1524567)
+- Tapu harcı: alıcı %2, satıcı %2 (toplam %4); 2026'da indirimli oran kararı yok; rayiç bedel yerine beyan edilen gerçek satış bedeli üzerinden. Döner sermaye bedeli kaynaklara göre 2.534 TL (Ayboga) veya ortalama 6.681 TL (Milliyet), birbiriyle çelişiyor. — [snippet, Tahancı Hukuk](https://www.tahanci.av.tr/emlak-alim-satim-vergisi/); [snippet, Milliyet](https://www.milliyet.com.tr/emlak/tapu-devir-ucreti-nedir-2026-tapu-harci-masrafi-ne-kadar-oldu-6515059); [snippet, Ayboga](https://ayboga.av.tr/tapu-harci-hesaplama-programi/)
+- Arsa payı: büyükşehirlerde arsa paylarının %50'yi aştığı yönünde sektör yorumu; 10 milyon TL konutta müteahhit/arsa sahibi 5+5 milyon örneği (arsa karşılığı yapı örneği, genel oran değil). Arsa karşılığı inşaatta vergisel emsal bedeli maliyete %5 (toptan) / %10 (perakende) ilave edilerek hesaplanır (kâr marjı değil). — [snippet, CNN Türk](https://cnnturk.com/ekonomi/galeri/fiyat-artisi-yavasladi-konutta-maliyet-el-yakiyor-2135401); [snippet, muhasebetr](https://www.muhasebetr.com/yazarlarimiz/muzaffer/009/)
+
+### Inferences
+- Alıcıya satışta KDV (%10/%20), tapu harcı ve ipotek harçları alıcı maliyeti; geliştirici KDV'si projede indirilebilir KDV olarak mahsup edilir; fiyatlamada net alan/brüt alan ayrımı önemli. 150 m² üstü daire oranı ürün karmasını etkiler.
+- Gelir paylaşımı rotasında Emlak Konut payı %35-45 (örnekler); bu, doğrudan satın alma ile karşılaştırılırken arsa maliyeti eşdeğeri olarak kullanılabilir.
+
+### Gaps
+- Hedef brüt marj, satış/pazarlama gideri (%), komisyon, reklam bütçesi için kaynaklı Türkiye verisi bulunamadı (GYO KAP raporları, EKGYO/Sinpaş/Kuzu verileri ayrıca taranmalı).
+- 2026 KDV oranları için GİB/Resmi Gazete birincil kaynağı doğrulanmadı; yalnızca ikincil kaynaklar okundu.
